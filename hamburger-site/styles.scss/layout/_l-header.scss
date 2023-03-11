@@ -1,0 +1,10 @@
+@use '../global/breakpoint' as m;
+
+.l-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .c-logo {
+    margin-left: 70px;
+  }
+}

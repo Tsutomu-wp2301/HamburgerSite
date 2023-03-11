@@ -1,0 +1,11 @@
+@use '../../global/breakpoint' as m;
+
+button.c-button {
+  width: 136px;
+  height: 46px;
+  background-color: #ccc5c5;
+  border-radius: 10px;
+  // border-style: unset;
+  border: 2px #707070 sorid;
+  font-size: 15px;
+}

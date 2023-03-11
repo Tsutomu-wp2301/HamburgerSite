@@ -1,0 +1,50 @@
+body {
+  font-size: 12px;
+  list-style: none;
+}
+
+.c-body {
+  max-width: 1920px;
+}
+
+.l-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.l-header .c-logo {
+  margin-left: 70px;
+}
+
+.c-header {
+  max-width: 1553px;
+  height: 217px;
+  background-color: #FFF7EF;
+}
+
+.c-logo {
+  width: 325px;
+  height: 84px;
+  color: #707070;
+  font-size: 63px;
+  overflow: hidden;
+  font-family: Roboto;
+}
+
+.c-search-area {
+  width: 396px;
+  height: 46px;
+  background-color: white;
+  border: 10px sorid #707070;
+  font-size: 25px;
+}
+
+button.c-button {
+  width: 136px;
+  height: 46px;
+  background-color: #ccc5c5;
+  border-radius: 10px;
+  border: 2px #707070 sorid;
+  font-size: 15px;
+}
+/*# sourceMappingURL=style.css.map */
