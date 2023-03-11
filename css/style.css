@@ -47,4 +47,11 @@ button.c-button {
   border: 2px #707070 sorid;
   font-size: 15px;
 }
+
+.c-main-image {
+  background-image: url(../../../image/mainvisual-pc.jpg);
+  background-position: center;
+  max-width: 1553px;
+  height: 530px;
+}
 /*# sourceMappingURL=style.css.map */
