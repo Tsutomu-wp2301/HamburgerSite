@@ -1,0 +1,8 @@
+@use '../../global/breakpoint' as m;
+
+.c-title--content {
+  background-color: rgba(255,255,255,0.3);
+  h2 {
+    font-size: 20px;
+  }
+}

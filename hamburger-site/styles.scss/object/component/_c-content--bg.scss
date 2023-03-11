@@ -1,0 +1,12 @@
+@use '../../global/breakpoint' as m;
+
+.c-content--bg {
+  background-image: url(../hamburger-site/image/take-out.png);
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  &--EatIn {
+    background-image: url(../hamburger-site/image/eat-in.png);
+
+  }
+}
