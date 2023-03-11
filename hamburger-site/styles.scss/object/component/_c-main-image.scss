@@ -1,0 +1,9 @@
+@use '../../global/breakpoint' as m;
+
+
+.c-main-image {
+  background-image: url(../../../image/mainvisual-pc.jpg);
+  background-position: center;
+  max-width: 1553px;
+  height: 530px;
+}
