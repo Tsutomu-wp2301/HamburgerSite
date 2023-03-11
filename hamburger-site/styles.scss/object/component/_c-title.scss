@@ -1,6 +1,6 @@
 @use '../../global/breakpoint' as m;
 
-.c-title--content {
+.c-title {
   font-size: 4rem;
   margin: 10px;
   color: white;
@@ -11,5 +11,14 @@
     width: 55px;
     background-color: white;
     margin-top: 25px;
+  }
+  &.map {
+    display: inline-block;
+    font-size: 2rem;
+    margin: 90px;
+    margin-left: 100px;
+    &::after {
+      margin-top: 40px;
+    }
   }
 }

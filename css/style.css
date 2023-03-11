@@ -5,6 +5,22 @@ body {
 
 .c-body {
   max-width: 1920px;
+  display: flex;
+}
+
+aside {
+  width: 350px;
+}
+
+main {
+  width: 1553px;
+}
+
+.c-footer {
+  display: block;
+  height: 150px;
+  width: 100%;
+  background-color: #9D8670;
 }
 
 .l-header {
@@ -91,18 +107,27 @@ button.c-button {
   background-position: center;
 }
 
-.c-title--content {
+.c-title {
   font-size: 4rem;
   margin: 10px;
   color: white;
 }
-.c-title--content::after {
+.c-title::after {
   display: block;
   content: "";
   height: 2px;
   width: 55px;
   background-color: white;
   margin-top: 25px;
+}
+.c-title.map {
+  display: inline-block;
+  font-size: 2rem;
+  margin: 90px;
+  margin-left: 100px;
+}
+.c-title.map::after {
+  margin-top: 40px;
 }
 
 .c-content__item {
@@ -121,11 +146,31 @@ button.c-button {
   font-size: 1rem;
 }
 
+.c-map {
+  height: 650px;
+  background-image: url(../hamburger-site/image/map.png);
+  background-size: cover;
+  background-position: center;
+}
+.c-map p {
+  color: white;
+  font-size: 1rem;
+  padding-left: 100px;
+  padding-right: 140px;
+  line-height: 1.8rem;
+}
+
 .p-content {
   height: 1200px;
   padding: 0% 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.color-board {
+  width: 950px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 /*# sourceMappingURL=style.css.map */
