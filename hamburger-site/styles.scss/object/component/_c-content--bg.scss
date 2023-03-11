@@ -7,6 +7,9 @@
   background-position: center;
   &--EatIn {
     background-image: url(../hamburger-site/image/eat-in.png);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
 
   }
 }

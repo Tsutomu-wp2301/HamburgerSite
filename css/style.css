@@ -20,13 +20,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 100px;
+  width: 625px;
 }
 
 .l-content--wrapper {
+  max-width: 1553px;
   display: flex;
   justify-content: center;
-  margin: 20px;
+  margin: 0% 0%;
 }
 
 .c-header {
@@ -85,17 +86,46 @@ button.c-button {
 }
 .c-content--bg--EatIn {
   background-image: url(../hamburger-site/image/eat-in.png);
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
 }
 
 .c-title--content {
-  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 4rem;
+  margin: 10px;
+  color: white;
 }
-.c-title--content h2 {
-  font-size: 20px;
+.c-title--content::after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 55px;
+  background-color: white;
+  margin-top: 25px;
+}
+
+.c-content__item {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 90%;
+  padding: 15px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.c-content__item h3 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+.c-content__item p {
+  font-size: 1rem;
 }
 
 .p-content {
-  width: 40%;
   height: 1200px;
+  padding: 0% 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */
