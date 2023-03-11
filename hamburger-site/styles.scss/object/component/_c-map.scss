@@ -1,0 +1,15 @@
+@use '../../global/breakpoint' as m;
+
+.c-map {
+  height: 650px;
+  background-image: url(../hamburger-site/image/map.png);
+  background-size: cover;
+  background-position: center;
+  p {
+    color: white;
+    font-size: 1rem;
+    padding-left: 100px;
+    padding-right: 140px;
+    line-height: 1.8rem;
+  }
+}
