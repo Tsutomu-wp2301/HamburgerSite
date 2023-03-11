@@ -1,0 +1,8 @@
+@use '../global/breakpoint' as m;
+
+.l-content__item--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px;
+}
