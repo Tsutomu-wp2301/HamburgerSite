@@ -1,1 +1,11 @@
 @use '../global/breakpoint' as m;
+
+
+.l-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  align-items: center;
+}

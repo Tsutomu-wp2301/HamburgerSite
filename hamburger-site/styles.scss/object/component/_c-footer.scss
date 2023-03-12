@@ -1,0 +1,17 @@
+@use '../../global/breakpoint' as m;
+
+.c-footer {
+  a {
+    text-decoration: none;
+  }
+  p {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: lighter;
+
+  }
+  .copyright {
+   font-size: 0.7rem;   
+   font-weight: lighter;
+  }
+}

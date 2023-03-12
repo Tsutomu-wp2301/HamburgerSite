@@ -1,0 +1,18 @@
+@use '../../global/breakpoint' as m;
+
+.c-aside--fonts {
+  h2 {
+    font-size: 2.2rem;
+    color: #707070; 
+   }
+   h3 {
+     font-size: 1.8rem;
+     color: #707070; 
+   }
+   li {
+     font-size: 1.5rem;
+     color: #707070; 
+     list-style: none;
+   }
+}
+
