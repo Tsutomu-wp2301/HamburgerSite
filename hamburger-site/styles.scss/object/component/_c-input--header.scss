@@ -1,11 +1,26 @@
 @use '../../global/breakpoint' as m;
 
-.c-search-area {
-  width: 396px;
-  height: 46px;
-  background-color: #FFFF;
-  border: 10px sorid #707070 ;
-  font-size: 25px;
+@include m.mq(sp) {
+  .c-search-area {
+    width: 216px;
+    height: 46px;
+    background-color: #FFFF;
+    border: 1px solid #707070 ;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 5px;
+  }
+}
 
 
+@include m.mq(pc) {
+  .c-search-area {
+    width: 396px;
+    height: 46px;
+    background-color: #FFFF;
+    border: 1px solid #707070 ;
+    font-size: 25px;   
+    border-radius: 10px;
+    margin-right: 5px;
+  }
 }
