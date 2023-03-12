@@ -1,10 +1,25 @@
 @use '../global/breakpoint' as m;
 
-.l-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  .c-logo {
-    margin-left: 70px;
+@include m.mq(sp) {
+  .l-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .c-logo {
+    }
+  }
+}
+
+
+
+@include m.mq(pc) {
+  .l-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .c-logo {
+      margin-left: 70px;
+    }
   }
 }
