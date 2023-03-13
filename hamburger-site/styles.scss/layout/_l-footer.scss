@@ -1,11 +1,24 @@
 @use '../global/breakpoint' as m;
 
 
-.l-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-top: 50px;
-  padding-bottom: 35px;
-  align-items: center;
+@include m.mq(sp) {
+  .l-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+  }
+}
+
+@include m.mq(pc) {
+  .l-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    align-items: center;
+  }
 }

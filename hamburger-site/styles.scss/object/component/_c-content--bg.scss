@@ -1,11 +1,13 @@
 @use '../../global/breakpoint' as m;
 
 .c-content--bg {
+  width: 90%;
   background-image: url(../hamburger-site/image/take-out.png);
   overflow: hidden;
   background-size: cover;
   background-position: center;
   &--EatIn {
+    width: 90%;
     background-image: url(../hamburger-site/image/eat-in.png);
     overflow: hidden;
     background-size: cover;

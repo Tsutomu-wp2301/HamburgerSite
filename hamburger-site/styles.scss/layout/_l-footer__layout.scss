@@ -1,6 +1,18 @@
 @use '../global/breakpoint' as m;
 
-.l-footer__layout {
-  display: flex;
-  align-items: center;
+
+
+@include m.mq(sp) {
+  .l-footer__layout {
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+@include m.mq(pc) {
+  .l-footer__layout {
+    display: flex;
+    align-items: center;
+  }
 }
