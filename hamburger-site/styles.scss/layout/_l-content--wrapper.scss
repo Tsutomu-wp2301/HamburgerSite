@@ -1,15 +1,36 @@
 @use '../global/breakpoint' as m;
 
 
-.l-content--wrapper {
-  max-width: 1553px;
-  display: flex;
-  justify-content:center;
-  margin: 0% 0%;
-  .p-content:nth-child(1) {
-    margin-right: 3%;
+@include m.mq(sp) {
+  .l-content--wrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+    .p-content:nth-child(1) {
+      margin: auto;
+      margin-top: 20px;
+    }
+    .p-content:nth-child(2) {
+      margin: auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
   }
-  .p-content:nth-child(2) {
-    margin-left: 3%;
+}
+
+@include m.mq(pc) {
+  .l-content--wrapper {
+    max-width: 1553px;
+    display: flex;
+    justify-content:center;
+    margin: 0% 0%;
+    .p-content:nth-child(1) {
+      margin-right: 3%;
+    }
+    .p-content:nth-child(2) {
+      margin-left: 3%;
+    }
   }
 }

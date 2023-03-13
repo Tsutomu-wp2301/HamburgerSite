@@ -1,8 +1,25 @@
 @use '../global/breakpoint' as m;
 
-.l-content__item--wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 625px;
+
+
+@include m.mq(sp) {
+  .l-content__item--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@include m.mq(pc) {
+  .l-content__item--wrapper {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 625px;
+  }
 }

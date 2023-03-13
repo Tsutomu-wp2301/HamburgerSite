@@ -1,7 +1,18 @@
-@use '../../global/breakpoint';
+@use '../../global/breakpoint' as m;
 
-.color-board {
-  width: 950px;
-  height: 100%;
-  background-color: rgba(0,0,0,0.6);
+
+@include m.mq(sp) {
+  .color-board {
+    width: 100vw;
+    height: 415px;
+    background-color: rgba(0,0,0,0.6);
+  }
+}
+
+@include m.mq(pc) {
+  .color-board {
+    width: 65%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+  }
 }

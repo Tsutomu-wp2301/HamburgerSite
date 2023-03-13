@@ -1,12 +1,26 @@
 @use '../../global/breakpoint' as m;
 
-.p-content {
-  // width: 40%;
-  height: 1200px;
-  padding: 0% 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 625px;
-  
+
+@include m.mq(sp) {
+  .p-content {
+    height: 1200px;
+    padding: 0% 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;   
+  }
+}
+
+@include m.mq(pc) {
+  .p-content {
+    // width: 40%;
+    height: 1200px;
+    padding: 0% 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 625px;
+    
+  }
 }
