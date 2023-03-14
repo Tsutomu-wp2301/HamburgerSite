@@ -4,7 +4,6 @@
 @include m.mq(sp) {
   .c-header {
     width: 100vw;
-    // max-width: 899px;
     height: 217px;
     background-color: #FFF7EF;
   }
@@ -13,7 +12,7 @@
 
 @include m.mq(pc) {
   .c-header {
-    width: 100vw;
+    width: 81.15vw;
     max-width: 1553px;
     height: 217px;
     background-color: #FFF7EF;

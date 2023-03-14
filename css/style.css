@@ -8,14 +8,26 @@ body {
   margin: auto;
 }
 
-aside {
-  width: 350px;
+@media screen and (max-width: 899px) {
+  .c-aside {
+    width: 350px;
+  }
 }
-
-main {
-  width: 1553px;
+@media screen and (min-width: 900px) {
+  .c-aside {
+    width: 18.85vw;
+  }
 }
-
+@media screen and (max-width: 899px) {
+  .c-main {
+    width: 81.15vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  .c-main {
+    width: 81.15vw;
+  }
+}
 .c-footer {
   display: block;
   height: 150px;
@@ -104,9 +116,10 @@ aside {
 @media screen and (min-width: 900px) {
   .l-content--wrapper {
     max-width: 1553px;
+    width: 81.15vw;
     display: flex;
     justify-content: center;
-    margin: 0% 0%;
+    margin: 4% 0% 5%;
   }
   .l-content--wrapper .p-content:nth-child(1) {
     margin-right: 3%;
@@ -151,7 +164,7 @@ aside {
 }
 @media screen and (min-width: 900px) {
   .c-header {
-    width: 100vw;
+    width: 81.15vw;
     max-width: 1553px;
     height: 217px;
     background-color: #FFF7EF;
@@ -185,14 +198,7 @@ aside {
     font-size: 25px;
     border-radius: 10px;
     margin-right: 5px;
-  }
-  .c-search-area::after {
-    display: inline-block;
-    content: "";
-    width: 40px;
-    height: 40px;
-    background-image: url(../hamburger-site/image/270mushimegane.png);
-    background-size: cover;
+    text-indent: 2.5rem;
   }
 }
 @media screen and (min-width: 900px) {
@@ -204,14 +210,7 @@ aside {
     font-size: 25px;
     border-radius: 10px;
     margin-right: 5px;
-  }
-  .c-search-area::after {
-    display: inline-block;
-    content: "";
-    width: 20px;
-    height: 20px;
-    background-image: url(../hamburger-site/image/270mushimegane.png);
-    background-size: cover;
+    text-indent: 2.5rem;
   }
 }
 @media screen and (max-width: 899px) {
@@ -427,6 +426,7 @@ aside {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    position: relative;
   }
 }
 @media screen and (min-width: 900px) {
@@ -434,6 +434,40 @@ aside {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 899px) {
+  .c-search--icon {
+    background-image: url(../hamburger-site/image/270mushimegane.png);
+    background-size: cover;
+    display: block;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    margin-left: 8px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .c-search--icon {
+    background-image: url(../hamburger-site/image/270mushimegane.png);
+    background-size: cover;
+    display: block;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 899px) {
+  .c-aside {
+    position: absolute;
+    left: 100%;
+    width: 328px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .cc-aside {
+    width: 18.85%;
   }
 }
 @media screen and (max-width: 899px) {
@@ -453,7 +487,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 625px;
+    width: 40%;
   }
 }
 @media screen and (max-width: 899px) {

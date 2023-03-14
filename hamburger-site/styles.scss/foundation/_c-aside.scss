@@ -1,5 +1,15 @@
 @use '../global/breakpoint' as m;
 
-aside {
-  width: 350px;
+@include m.mq(sp) {
+  .c-aside {
+    width: 350px;
+  }
 }
+
+@include m.mq(pc) {
+  .c-aside {
+    width: 18.85vw;
+  }
+}
+
+

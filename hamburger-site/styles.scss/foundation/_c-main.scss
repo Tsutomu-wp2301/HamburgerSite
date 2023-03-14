@@ -1,5 +1,14 @@
 @use '../global/breakpoint' as m;
 
-main {
-  width: 1553px;
+
+@include m.mq(sp) {
+  .c-main {
+    width: 81.15vw;
+  }
+}
+
+@include m.mq(pc) {
+  .c-main {
+    width: 81.15vw;
+  }
 }
