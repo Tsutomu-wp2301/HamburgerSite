@@ -9,6 +9,20 @@
   }
 }
 
+@include m.mq(tab) {
+  .l-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .c-logo {
+      margin-left: 70px;
+      margin-top: -10px;
+    }
+    .c-search {
+      margin-top: 20px;
+    }
+  }
+}
 
 
 @include m.mq(pc) {
@@ -18,6 +32,10 @@
     align-items: center;
     .c-logo {
       margin-left: 70px;
+      margin-top: -10px;
+    }
+    .c-search {
+      margin-top: 20px;
     }
   }
 }
