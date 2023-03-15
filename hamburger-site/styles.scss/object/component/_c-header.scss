@@ -9,11 +9,20 @@
   }
 }
 
+@include m.mq(tab) {
+  .c-header {
+    width: 81.15vw;
+    max-width: 3000px;
+    height: 217px;
+    background-color: #FFF7EF;
+  }
+}
+
 
 @include m.mq(pc) {
   .c-header {
     width: 81.15vw;
-    max-width: 1553px;
+    max-width: 3000px;
     height: 217px;
     background-color: #FFF7EF;
   }

@@ -7,6 +7,12 @@
   }
 }
 
+@include m.mq(tab) {
+  .c-main {
+    width: 81.15vw;
+  }
+}
+
 @include m.mq(pc) {
   .c-main {
     width: 81.15vw;
