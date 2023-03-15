@@ -19,18 +19,35 @@
 }
 
 
+@include m.mq(tab) {
+  .c-footer {
+    a {
+      text-decoration: none;
+    }
+    p {
+      font-size: 1.3rem;
+      color: white;
+      font-weight: lighter;
+    }
+    .copyright {
+    font-size: 0.9rem;   
+    font-weight: lighter;
+    }
+  }
+}
+
 @include m.mq(pc) {
   .c-footer {
     a {
       text-decoration: none;
     }
     p {
-      font-size: 1.1rem;
+      font-size: 1.3rem;
       color: white;
       font-weight: lighter;
     }
     .copyright {
-    font-size: 0.7rem;   
+    font-size: 0.9rem;   
     font-weight: lighter;
     }
   }

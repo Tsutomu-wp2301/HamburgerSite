@@ -10,19 +10,19 @@
 }
 
 @include m.mq(tab) {
-  .l-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .c-logo {
-      margin-left: 70px;
-      margin-top: -10px;
-    }
-    .c-search {
-      margin-top: 20px;
+    .l-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+        .c-search {
+          margin-bottom: 30px;
+        }
+        .c-logo {
+          margin-top: 10px;
+        }
     }
   }
-}
 
 
 @include m.mq(pc) {

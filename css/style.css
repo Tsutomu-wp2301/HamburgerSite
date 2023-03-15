@@ -9,7 +9,7 @@ body {
   margin: auto;
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .c-aside {
     width: 350px;
   }
@@ -19,12 +19,12 @@ body {
     width: 18.85vw;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .c-main {
     width: 81.15vw;
   }
 }
-@media screen and (min-width:900px) {
+@media screen and (min-width:801px) {
   .c-main {
     width: 81.15vw;
   }
@@ -45,13 +45,23 @@ aside {
   background-color: #F2EDE9;
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .l-footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
+    align-items: center;
+  }
+}
+@media screen and (min-width:801px) {
+  .l-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 25px;
     align-items: center;
   }
 }
@@ -65,7 +75,7 @@ aside {
     align-items: center;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .l-header {
     display: flex;
     flex-direction: column;
@@ -73,18 +83,18 @@ aside {
     align-items: center;
   }
 }
-@media screen and (min-width:900px) {
+@media screen and (min-width:801px) {
   .l-header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
   }
-  .l-header .c-logo {
-    margin-left: 70px;
-    margin-top: -10px;
-  }
   .l-header .c-search {
-    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .l-header .c-logo {
+    margin-top: 10px;
   }
 }
 @media screen and (min-width: 1250px) {
@@ -101,7 +111,7 @@ aside {
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .l-content__item--wrapper {
     display: flex;
     flex-direction: column;
@@ -110,6 +120,16 @@ aside {
     margin-top: 10px;
     margin-left: 5%;
     margin-right: 5%;
+  }
+}
+@media screen and (min-width:801px) {
+  .l-content__item--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1250px) {
@@ -122,7 +142,7 @@ aside {
     margin-right: auto;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .l-content--wrapper {
     width: 100vw;
     display: flex;
@@ -139,27 +159,45 @@ aside {
     margin-bottom: 20px;
   }
 }
+@media screen and (min-width:801px) {
+  .l-content--wrapper {
+    max-width: 3000px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4% 0% 5%;
+  }
+  .l-content--wrapper .p-content:nth-child(1) {
+    width: 45%;
+    margin-right: 0%;
+  }
+  .l-content--wrapper .p-content:nth-child(2) {
+    width: 45%;
+    position: relative;
+  }
+}
 @media screen and (min-width: 1250px) {
   .l-content--wrapper {
-    max-width: 1553px;
+    max-width: 3000px;
     width: 81.15vw;
     display: flex;
     justify-content: center;
     margin: 4% 0% 5%;
   }
   .l-content--wrapper .p-content:nth-child(1) {
-    margin-right: 3%;
+    margin-right: 0%;
   }
   .l-content--wrapper .p-content:nth-child(2) {
     margin-left: 3%;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .l-flex--wrapper {
     display: flex;
   }
 }
-@media screen and (min-width:900px) {
+@media screen and (min-width:801px) {
   .l-flex--wrapper {
     display: flex;
     width: 100vw;
@@ -171,7 +209,13 @@ aside {
     width: 100vw;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
+  .l-footer__layout {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (min-width:801px) {
   .l-footer__layout {
     display: flex;
     align-items: center;
@@ -194,16 +238,33 @@ aside {
   margin: 20px 20px;
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
+  .c-aside {
+    position: absolute;
+    left: 100%;
+  }
+}
+@media screen and (min-width:801px) {
+  .l-aside {
+    position: absolute;
+    left: 100%;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .l-aside {
+    position: static;
+  }
+}
+@media screen and (max-width: 800px) {
   .c-header {
     width: 100vw;
     height: 217px;
     background-color: #FFF7EF;
   }
 }
-@media screen and (min-width:900px) {
+@media screen and (min-width:801px) {
   .c-header {
-    width: 81.15vw;
+    width: 100vw;
     max-width: 3000px;
     height: 217px;
     background-color: #FFF7EF;
@@ -217,7 +278,7 @@ aside {
     background-color: #FFF7EF;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .c-logo {
     display: inline-block;
     color: #707070;
@@ -228,6 +289,14 @@ aside {
     margin-top: 20px;
   }
 }
+@media screen and (min-width:801px) {
+  .c-logo {
+    color: #707070;
+    font-size: 53px;
+    overflow: hidden;
+    font-family: Roboto;
+  }
+}
 @media screen and (min-width: 1250px) {
   .c-logo {
     color: #707070;
@@ -236,7 +305,7 @@ aside {
     font-family: Roboto;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .c-search-area {
     width: 216px;
     height: 46px;
@@ -248,6 +317,18 @@ aside {
     text-indent: 2.5rem;
   }
 }
+@media screen and (min-width:801px) {
+  .c-search-area {
+    width: 396px;
+    height: 46px;
+    background-color: white;
+    border: 1px solid #707070;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-right: 5px;
+    text-indent: 2.8rem;
+  }
+}
 @media screen and (min-width: 1250px) {
   .c-search-area {
     width: 396px;
@@ -257,12 +338,23 @@ aside {
     font-size: 25px;
     border-radius: 10px;
     margin-right: 5px;
-    text-indent: 2.5rem;
+    text-indent: 2.8rem;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   button.c-button {
     width: 90px;
+    height: 46px;
+    background-color: #ccc5c5;
+    border-radius: 10px;
+    border: 2px #707070 sorid;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+}
+@media screen and (min-width:801px) {
+  button.c-button {
+    width: 136px;
     height: 46px;
     background-color: #ccc5c5;
     border-radius: 10px;
@@ -282,7 +374,7 @@ aside {
     margin-left: 5px;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .c-main-image {
     width: 100vw;
     background-image: url(../hamburger-site/image/mainvisual-pc.jpg);
@@ -299,12 +391,31 @@ aside {
     margin-left: 25px;
   }
 }
+@media screen and (min-width:801px) {
+  .c-main-image {
+    background-image: url(../hamburger-site/image/mainvisual-pc.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 3000px;
+    width: 100vw;
+    height: 285px;
+    display: flex;
+    align-items: center;
+  }
+  .c-main-image h1 {
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+    margin-left: 85px;
+  }
+}
 @media screen and (min-width: 1250px) {
   .c-main-image {
     background-image: url(../hamburger-site/image/mainvisual-pc.jpg);
     background-position: center;
     background-size: cover;
     max-width: 3000px;
+    width: 81.15vw;
     height: 530px;
     display: flex;
     align-items: center;
@@ -355,7 +466,23 @@ aside {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
+  .c-content__item {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .c-content__item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+  }
+  .c-content__item p {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width:801px) {
   .c-content__item {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 15px;
@@ -387,7 +514,7 @@ aside {
     font-size: 1rem;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .c-map {
     margin-top: 30px;
     height: 690px;
@@ -400,6 +527,22 @@ aside {
     font-size: 1rem;
     padding-left: 10%;
     padding-right: 10%;
+    line-height: 1.8rem;
+  }
+}
+@media screen and (min-width:801px) {
+  .c-map {
+    height: 415px;
+    width: 100vw;
+    background-image: url(../hamburger-site/image/map.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .c-map p {
+    color: white;
+    font-size: 1rem;
+    padding-left: 10%;
+    padding-right: 140px;
     line-height: 1.8rem;
   }
 }
@@ -426,7 +569,7 @@ aside {
   margin: 0px 10px 0px 11px;
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .c-footer a {
     text-decoration: none;
   }
@@ -440,17 +583,31 @@ aside {
     font-weight: lighter;
   }
 }
+@media screen and (min-width:801px) {
+  .c-footer a {
+    text-decoration: none;
+  }
+  .c-footer p {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: lighter;
+  }
+  .c-footer .copyright {
+    font-size: 0.9rem;
+    font-weight: lighter;
+  }
+}
 @media screen and (min-width: 1250px) {
   .c-footer a {
     text-decoration: none;
   }
   .c-footer p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: white;
     font-weight: lighter;
   }
   .c-footer .copyright {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: lighter;
   }
 }
@@ -468,11 +625,18 @@ aside {
   list-style: none;
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .c-search {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    position: relative;
+  }
+}
+@media screen and (min-width:801px) {
+  .c-search {
+    display: flex;
+    align-items: center;
     position: relative;
   }
 }
@@ -484,7 +648,7 @@ aside {
     margin-right: 30px;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .c-search--icon {
     background-image: url(../hamburger-site/image/270mushimegane.png);
     background-size: cover;
@@ -493,6 +657,17 @@ aside {
     width: 25px;
     position: absolute;
     margin-left: 8px;
+  }
+}
+@media screen and (min-width:801px) {
+  .c-search--icon {
+    background-image: url(../hamburger-site/image/270mushimegane.png);
+    background-size: cover;
+    display: block;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    margin-left: 10px;
   }
 }
 @media screen and (min-width: 1250px) {
@@ -506,11 +681,14 @@ aside {
     margin-left: 10px;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .c-aside {
-    position: absolute;
-    left: 100%;
     width: 328px;
+  }
+}
+@media screen and (min-width:801px) {
+  .c-aside {
+    width: 367px;
   }
 }
 @media screen and (min-width: 1250px) {
@@ -519,7 +697,7 @@ aside {
     min-width: 300px;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .p-content {
     height: 1200px;
     padding: 0% 10px;
@@ -527,6 +705,17 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     width: 90%;
+  }
+}
+@media screen and (min-width:801px) {
+  .p-content {
+    height: 681px;
+    padding: 0% 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 42.5%;
+    margin: 0% 3% 0% 3%;
   }
 }
 @media screen and (min-width: 1250px) {
@@ -539,10 +728,17 @@ aside {
     width: 40%;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 800px) {
   .color-board {
     width: 100vw;
     height: 415px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+@media screen and (min-width:801px) {
+  .color-board {
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
   }
 }

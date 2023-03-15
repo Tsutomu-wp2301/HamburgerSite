@@ -14,6 +14,19 @@
 }
 
 
+@include m.mq(tab) {
+  .c-search-area {
+    width: 396px;
+    height: 46px;
+    background-color: #FFFF;
+    border: 1px solid #707070 ;
+    font-size: 25px;   
+    border-radius: 10px;
+    margin-right: 5px;
+    text-indent: 2.8rem;
+  }
+}
+
 @include m.mq(pc) {
   .c-search-area {
     width: 396px;
@@ -23,6 +36,6 @@
     font-size: 25px;   
     border-radius: 10px;
     margin-right: 5px;
-    text-indent: 2.5rem;
+    text-indent: 2.8rem;
   }
 }
