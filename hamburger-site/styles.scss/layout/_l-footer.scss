@@ -12,6 +12,17 @@
   }
 }
 
+@include m.mq(tab) {
+  .l-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    align-items: center;
+  }
+}
+
 @include m.mq(pc) {
   .l-footer {
     display: flex;

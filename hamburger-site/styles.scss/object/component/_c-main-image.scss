@@ -18,12 +18,32 @@
       }
 }
 
+@include m.mq(tab) {
+  .c-main-image {
+    background-image: url(../hamburger-site/image/mainvisual-pc.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 3000px;
+    width: 100vw;
+    height: 285px;
+    display: flex;
+    align-items: center;
+      h1 {
+        display: inline-block;
+        font-size: 35px;
+        color: white;
+        margin-left: 85px;
+      }
+  }
+}
+
 @include m.mq(pc) {
   .c-main-image {
     background-image: url(../hamburger-site/image/mainvisual-pc.jpg);
     background-position: center;
     background-size: cover;
     max-width: 3000px;
+    width: 81.15vw;
     height: 530px;
     display: flex;
     align-items: center;

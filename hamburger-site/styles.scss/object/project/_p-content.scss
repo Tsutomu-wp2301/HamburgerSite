@@ -12,6 +12,19 @@
   }
 }
 
+@include m.mq(tab) {
+  .p-content {
+    // width: 40%;
+    height: 681px;
+    padding: 0% 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 42.5%;
+    margin: 0% 3% 0% 3%;
+  }
+}
+
 @include m.mq(pc) {
   .p-content {
     // width: 40%;
@@ -21,6 +34,5 @@
     flex-direction: column;
     justify-content: space-between;
     width: 40%;
-    
-  }
+      }
 }

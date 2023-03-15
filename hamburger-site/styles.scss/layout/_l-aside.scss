@@ -1,0 +1,24 @@
+@use '../global/breakpoint' as m;
+
+@include m.mq(sp) {
+  .c-aside {
+    position: absolute;
+    left: 100%;
+  }
+}
+
+
+@include m.mq(tab) {
+    .l-aside {
+    position: absolute;
+    left: 100%;
+  }
+}
+
+
+@include m.mq(pc) {
+  .l-aside {
+    position: static;
+  }
+}
+

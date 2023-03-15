@@ -2,11 +2,16 @@
 
 @include m.mq(sp) {
   .c-aside {
-    position: absolute;
-    left: 100%;
     width: 328px;
   }
 }
+
+@include m.mq(tab) {
+  .c-aside {
+    width: 367px;
+  }
+}
+
 
 @include m.mq(pc) {
   .c-aside {

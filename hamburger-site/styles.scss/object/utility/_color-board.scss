@@ -9,6 +9,14 @@
   }
 }
 
+@include m.mq(tab) {
+  .color-board {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+  }
+}
+
 @include m.mq(pc) {
   .color-board {
     width: 65%;

@@ -10,6 +10,15 @@
   }
 }
 
+@include m.mq(tab) {
+  .c-search {
+    display: flex;
+    align-items: center;
+    // margin-bottom: 20px;
+    position: relative;
+  }
+}
+
 @include m.mq(pc) {
   .c-search {
     display: flex;

@@ -20,15 +20,36 @@
   }
 }
 
-@include m.mq(pc) {
+
+@include m.mq(tab) {
   .l-content--wrapper {
-    max-width: 1553px;
-    width: 81.15vw;
+    max-width: 3000px;
+    width: 100vw;
     display: flex;
-    justify-content:center;
+    justify-content: space-around;
+    align-items: center;
     margin: 4% 0% 5%;
     .p-content:nth-child(1) {
-      margin-right: 3%;
+      width: 45%;
+      margin-right: 0%;
+    }
+    .p-content:nth-child(2) {
+      width: 45%;
+      position: relative;
+    }
+  }
+}
+
+
+@include m.mq(pc) {
+  .l-content--wrapper {
+    max-width: 3000px;
+    width: 81.15vw;
+    display: flex;
+    justify-content: center;
+    margin: 4% 0% 5%;
+    .p-content:nth-child(1) {
+      margin-right: 0%;
     }
     .p-content:nth-child(2) {
       margin-left: 3%;

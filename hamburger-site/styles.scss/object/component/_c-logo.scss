@@ -12,6 +12,17 @@
   }
 }
 
+
+@include m.mq(tab) {
+  .c-logo {
+    color: #707070;
+    font-size: 53px;
+    overflow: hidden;
+    font-family: Roboto;
+  }
+}
+
+
 @include m.mq(pc) {
   .c-logo {
     color: #707070;
