@@ -7,6 +7,7 @@ body {
   width: 100vw;
   max-width: 2500vw;
   margin: auto;
+  font-family: "M+ 1m";
 }
 
 @media screen and (max-width: 800px) {
@@ -39,6 +40,13 @@ body {
   height: 150px;
   width: 100%;
   background-color: #9D8670;
+  background-image: url(../hamburger-site/image/bg--footer.png);
+}
+.c-footer .copyright {
+  font-family: "M+ 1m";
+}
+.c-footer p {
+  font-family: "M+ 1m";
 }
 
 aside {
@@ -70,7 +78,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 35px;
     align-items: center;
   }
@@ -94,7 +102,7 @@ aside {
     margin-bottom: 30px;
   }
   .l-header .c-logo {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
 @media screen and (min-width: 1250px) {
@@ -102,6 +110,7 @@ aside {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
   }
   .l-header .c-logo {
     margin-left: 70px;
@@ -121,6 +130,9 @@ aside {
     margin-left: 5%;
     margin-right: 5%;
   }
+  .l-content__item--wrapper .c-content__item:nth-of-type(1) {
+    margin-bottom: 0px;
+  }
 }
 @media screen and (min-width:801px) {
   .l-content__item--wrapper {
@@ -131,6 +143,9 @@ aside {
     margin-left: auto;
     margin-right: auto;
   }
+  .l-content__item--wrapper .c-content__item:nth-of-type(1) {
+    margin-bottom: 0px;
+  }
 }
 @media screen and (min-width: 1250px) {
   .l-content__item--wrapper {
@@ -140,6 +155,9 @@ aside {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+  }
+  .l-content__item--wrapper .c-content__item:nth-of-type(1) {
+    margin-bottom: 0px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -285,7 +303,8 @@ aside {
     font-size: 40px;
     display: inline-block;
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto";
+    font-weight: bold;
     margin-top: 20px;
   }
 }
@@ -294,7 +313,8 @@ aside {
     color: #707070;
     font-size: 53px;
     overflow: hidden;
-    font-family: Roboto;
+    font-family: "Roboto";
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 1250px) {
@@ -302,7 +322,8 @@ aside {
     color: #707070;
     font-size: 63px;
     overflow: hidden;
-    font-family: Roboto;
+    font-family: "Roboto";
+    font-weight: bold;
   }
 }
 @media screen and (max-width: 800px) {
@@ -528,6 +549,10 @@ aside {
     padding-left: 10%;
     padding-right: 10%;
     line-height: 1.8rem;
+    font-weight: bold;
+  }
+  .c-map h2 {
+    font-weight: bold;
   }
 }
 @media screen and (min-width:801px) {
@@ -544,6 +569,10 @@ aside {
     padding-left: 10%;
     padding-right: 140px;
     line-height: 1.8rem;
+    font-weight: bold;
+  }
+  .c-map h2 {
+    font-weight: bold;
   }
 }
 @media screen and (min-width: 1250px) {
@@ -559,6 +588,10 @@ aside {
     padding-left: 10%;
     padding-right: 140px;
     line-height: 1.8rem;
+    font-weight: bold;
+  }
+  .c-map h2 {
+    font-weight: bold;
   }
 }
 .c-line {
@@ -576,11 +609,9 @@ aside {
   .c-footer p {
     font-size: 1.1rem;
     color: white;
-    font-weight: lighter;
   }
   .c-footer .copyright {
     font-size: 0.7rem;
-    font-weight: lighter;
   }
 }
 @media screen and (min-width:801px) {
@@ -590,11 +621,9 @@ aside {
   .c-footer p {
     font-size: 1.3rem;
     color: white;
-    font-weight: lighter;
   }
   .c-footer .copyright {
     font-size: 0.9rem;
-    font-weight: lighter;
   }
 }
 @media screen and (min-width: 1250px) {
@@ -604,25 +633,30 @@ aside {
   .c-footer p {
     font-size: 1.3rem;
     color: white;
-    font-weight: lighter;
   }
   .c-footer .copyright {
     font-size: 0.9rem;
-    font-weight: lighter;
   }
 }
 .c-aside--fonts h2 {
   font-size: 2.2rem;
   color: #707070;
+  font-family: "Roboto";
+  font-weight: bold;
 }
 .c-aside--fonts h3 {
   font-size: 1.8rem;
   color: #707070;
+  font-family: "M+ 1m";
+  font-weight: bold;
 }
 .c-aside--fonts li {
   font-size: 1.5rem;
   color: #707070;
   list-style: none;
+  font-family: "M+ 1m";
+  font-weight: "regular";
+  margin-left: 3rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -698,6 +732,28 @@ aside {
   }
 }
 @media screen and (max-width: 800px) {
+  .c-slide--button {
+    position: fixed;
+    left: 90%;
+    font-size: 2rem;
+    color: #707070;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 28px;
+  }
+}
+@media screen and (min-width:801px) {
+  .c-slide--button {
+    position: fixed;
+    left: 90%;
+    font-size: 2rem;
+    color: #707070;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
   .p-content {
     height: 1200px;
     padding: 0% 10px;
@@ -705,6 +761,10 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     width: 90%;
+  }
+  .p-content .c-title {
+    font-family: "Roboto";
+    font-weight: bold;
   }
 }
 @media screen and (min-width:801px) {
@@ -717,6 +777,10 @@ aside {
     width: 42.5%;
     margin: 0% 3% 0% 3%;
   }
+  .p-content .c-title {
+    font-family: "Roboto";
+    font-weight: bold;
+  }
 }
 @media screen and (min-width: 1250px) {
   .p-content {
@@ -726,6 +790,10 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     width: 40%;
+  }
+  .p-content .c-title {
+    font-family: "Roboto";
+    font-weight: bold;
   }
 }
 @media screen and (max-width: 800px) {

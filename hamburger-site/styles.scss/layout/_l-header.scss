@@ -19,7 +19,7 @@
           margin-bottom: 30px;
         }
         .c-logo {
-          margin-top: 10px;
+          margin-top: 20px;
         }
     }
   }
@@ -30,6 +30,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
     .c-logo {
       margin-left: 70px;
       margin-top: -10px;
