@@ -1,0 +1,27 @@
+@use '../../global/breakpoint' as m;
+
+
+@include m.mq(sp) {
+  .c-slide--button {
+    position: fixed;
+    left: 90%;
+    font-size: 2rem;
+    color: #707070;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 28px;
+  }
+}
+
+
+@include m.mq(tab) {
+  .c-slide--button {
+    position: fixed;
+    left: 90%;
+    font-size: 2rem;
+    color: #707070;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-top: 20px;
+  }
+}
