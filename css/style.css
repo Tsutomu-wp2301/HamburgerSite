@@ -260,10 +260,9 @@ aside {
 }
 
 @media screen and (max-width: 800px) {
-  .c-aside--wrapper {
+  .l-aside--wrapper {
     position: relative;
     display: flex;
-    left: 100%;
   }
 }
 @media screen and (min-width:801px) {
@@ -821,6 +820,13 @@ aside {
   }
 }
 @media screen and (max-width: 800px) {
+  .c-color-board--black {
+    width: 375px;
+    height: 2716px;
+    background: rgba(0, 0, 0, 0.501961);
+  }
+}
+@media screen and (max-width: 800px) {
   .p-content {
     height: 642px;
     padding: 0% 10px;
@@ -882,16 +888,6 @@ aside {
     width: 65%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-  }
-}
-@media screen and (max-width: 800px) {
-  .color-board--black {
-    position: absolute;
-    width: 375px;
-    height: 2716px;
-    left: 100%;
-    top: 0px;
-    background: rgba(0, 0, 0, 0.501961);
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,7 @@
 @use '../global/breakpoint' as m;
 
+// サイドバーの幅を設定
+
 @include m.mq(sp) {
   .c-aside {
     width: 350px;

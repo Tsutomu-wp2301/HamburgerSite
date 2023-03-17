@@ -1,5 +1,8 @@
 @use '../global/breakpoint' as m;
 
+
+// メインとサイドバーを横並びに配置
+
 @include m.mq(sp) {
   .l-flex--wrapper {
     display: flex;

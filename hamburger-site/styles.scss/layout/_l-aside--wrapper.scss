@@ -4,10 +4,10 @@
 // サイドメニューと黒い背景を横に並べて、全体を左に隠す
 
 @include m.mq(sp) {
-  .c-aside--wrapper {
+  .l-aside--wrapper {
     position: relative;
     display: flex;
-    left:100%;
+    // left:100%;
     // z-index: 100;
   }
 }
