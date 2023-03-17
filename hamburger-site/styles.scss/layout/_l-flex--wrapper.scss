@@ -3,6 +3,7 @@
 @include m.mq(sp) {
   .l-flex--wrapper {
     display: flex;
+    width: 100vw;
   }
 }
 

@@ -1,0 +1,31 @@
+@use '../global/breakpoint' as m;
+
+
+// サイドメニューと黒い背景を横に並べて、全体を左に隠す
+
+@include m.mq(sp) {
+  .c-aside--wrapper {
+    position: relative;
+    display: flex;
+    left:100%;
+    // z-index: 100;
+  }
+}
+
+
+@include m.mq(tab) {
+    .l-aside--wrapper {
+    position: relative;
+    display: flex;
+    left: 100%;
+    // z-index: 100;
+  }
+}
+
+
+@include m.mq(pc) {
+  .l-aside {
+    position: static;
+  }
+}
+

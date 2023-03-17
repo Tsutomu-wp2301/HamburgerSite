@@ -25,3 +25,16 @@
     margin-top: 20px;
   }
 }
+
+@include m.mq(pc) {
+  .c-slide--button {
+    display: none;
+    // position: fixed;
+    // left: 90%;
+    // font-size: 2rem;
+    // color: #707070;
+    // font-family: "Roboto";
+    // font-weight: bold;
+    // margin-top: 20px;
+  }
+}

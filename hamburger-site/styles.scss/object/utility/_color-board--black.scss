@@ -1,0 +1,13 @@
+@use '../../global/breakpoint' as m;
+
+@include m.mq(sp) {
+  .color-board--black {
+    position: absolute;
+    width: 375px;
+    height: 2716px;
+    left: 100%;
+    top: 0px;
+    // z-index: 100;
+    background: rgba(0, 0, 0, 0.501961);
+  }
+}
