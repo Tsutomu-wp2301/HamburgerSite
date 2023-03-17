@@ -1,25 +1,80 @@
 @use '../../global/breakpoint' as m;
 
-.c-title {
-  font-size: 4rem;
-  margin: 10px;
-  color: white;
-  &::after {
-    display: block;
-    content: "";
-    height: 2px;
-    width: 55px;
-    background-color: white;
-    margin-top: 25px;
-  }
-  &.map {
-    display: inline-block;
-    font-size: 2rem;
-    margin-top: 8%;
-    margin-left: 10%;
+
+@include m.mq(sp) {
+  .c-title {
+    font-size: 41px;
+    margin: 10px;
+    color: white;
     &::after {
-      margin-top: 40px;
-      margin-bottom: 30px;
+      display: block;
+      content: "";
+      height: 4px;
+      width: 35px;
+      background-color: white;
+      margin-top: 15px;
+    }
+    &.map {
+      display: inline-block;
+      font-size: 2rem;
+      margin-top: 8%;
+      margin-left: 10%;
+      &::after {
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@include m.mq(tab) {
+  .c-title {
+    font-size: 4rem;
+    margin: 10px;
+    color: white;
+    &::after {
+      display: block;
+      content: "";
+      height: 2px;
+      width: 55px;
+      background-color: white;
+      margin-top: 25px;
+    }
+    &.map {
+      display: inline-block;
+      font-size: 2rem;
+      margin-top: 8%;
+      margin-left: 10%;
+      &::after {
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@include m.mq(pc) {
+  .c-title {
+    font-size: 4rem;
+    margin: 10px;
+    color: white;
+    &::after {
+      display: block;
+      content: "";
+      height: 2px;
+      width: 55px;
+      background-color: white;
+      margin-top: 25px;
+    }
+    &.map {
+      display: inline-block;
+      font-size: 2rem;
+      margin-top: 8%;
+      margin-left: 10%;
+      &::after {
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
     }
   }
 }

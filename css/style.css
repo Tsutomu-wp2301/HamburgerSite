@@ -22,12 +22,12 @@ body {
 }
 @media screen and (max-width: 800px) {
   .c-main {
-    width: 81.15vw;
+    width: 100vw;
   }
 }
 @media screen and (min-width:801px) {
   .c-main {
-    width: 81.15vw;
+    width: 100vw;
   }
 }
 @media screen and (min-width: 1250px) {
@@ -213,6 +213,7 @@ aside {
 @media screen and (max-width: 800px) {
   .l-flex--wrapper {
     display: flex;
+    width: 100vw;
   }
 }
 @media screen and (min-width:801px) {
@@ -245,8 +246,10 @@ aside {
     align-items: center;
   }
 }
+.l-aside__font-layout {
+  padding-top: 60px;
+}
 .l-aside__font-layout h2 {
-  margin-top: 60px;
   margin-left: 20px;
 }
 .l-aside__font-layout h3 {
@@ -257,14 +260,15 @@ aside {
 }
 
 @media screen and (max-width: 800px) {
-  .c-aside {
-    position: absolute;
-    left: 100%;
+  .l-aside--wrapper {
+    position: relative;
+    display: flex;
   }
 }
 @media screen and (min-width:801px) {
-  .l-aside {
-    position: absolute;
+  .l-aside--wrapper {
+    position: relative;
+    display: flex;
     left: 100%;
   }
 }
@@ -463,44 +467,98 @@ aside {
   background-position: center;
 }
 
-.c-title {
-  font-size: 4rem;
-  margin: 10px;
-  color: white;
+@media screen and (max-width: 800px) {
+  .c-title {
+    font-size: 41px;
+    margin: 10px;
+    color: white;
+  }
+  .c-title::after {
+    display: block;
+    content: "";
+    height: 4px;
+    width: 35px;
+    background-color: white;
+    margin-top: 15px;
+  }
+  .c-title.map {
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 8%;
+    margin-left: 10%;
+  }
+  .c-title.map::after {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
 }
-.c-title::after {
-  display: block;
-  content: "";
-  height: 2px;
-  width: 55px;
-  background-color: white;
-  margin-top: 25px;
+@media screen and (min-width:801px) {
+  .c-title {
+    font-size: 4rem;
+    margin: 10px;
+    color: white;
+  }
+  .c-title::after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 55px;
+    background-color: white;
+    margin-top: 25px;
+  }
+  .c-title.map {
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 8%;
+    margin-left: 10%;
+  }
+  .c-title.map::after {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
 }
-.c-title.map {
-  display: inline-block;
-  font-size: 2rem;
-  margin-top: 8%;
-  margin-left: 10%;
+@media screen and (min-width: 1250px) {
+  .c-title {
+    font-size: 4rem;
+    margin: 10px;
+    color: white;
+  }
+  .c-title::after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 55px;
+    background-color: white;
+    margin-top: 25px;
+  }
+  .c-title.map {
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 8%;
+    margin-left: 10%;
+  }
+  .c-title.map::after {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
 }
-.c-title.map::after {
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-
 @media screen and (max-width: 800px) {
   .c-content__item {
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 15px;
+    height: 156px;
+    padding: 12px;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
+    overflow: hidden;
   }
   .c-content__item h3 {
-    font-size: 1.4rem;
+    font-size: 22px;
     margin-bottom: 8px;
   }
   .c-content__item p {
-    font-size: 1rem;
+    font-size: 16px;
+    padding-bottom: 10px;
   }
 }
 @media screen and (min-width:801px) {
@@ -538,7 +596,8 @@ aside {
 @media screen and (max-width: 800px) {
   .c-map {
     margin-top: 30px;
-    height: 690px;
+    height: 691px;
+    width: 100vw;
     background-image: url(../hamburger-site/image/map.png);
     background-size: cover;
     background-position: center;
@@ -718,11 +777,13 @@ aside {
 @media screen and (max-width: 800px) {
   .c-aside {
     width: 328px;
+    height: 2716px;
   }
 }
 @media screen and (min-width:801px) {
   .c-aside {
     width: 367px;
+    height: 2716px;
   }
 }
 @media screen and (min-width: 1250px) {
@@ -753,9 +814,21 @@ aside {
     margin-top: 20px;
   }
 }
+@media screen and (min-width: 1250px) {
+  .c-slide--button {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .c-color-board--black {
+    width: 375px;
+    height: 2716px;
+    background: rgba(0, 0, 0, 0.501961);
+  }
+}
 @media screen and (max-width: 800px) {
   .p-content {
-    height: 1200px;
+    height: 642px;
     padding: 0% 10px;
     display: flex;
     flex-direction: column;
@@ -770,7 +843,7 @@ aside {
 @media screen and (min-width:801px) {
   .p-content {
     height: 681px;
-    padding: 0% 10px;
+    padding: 0% 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

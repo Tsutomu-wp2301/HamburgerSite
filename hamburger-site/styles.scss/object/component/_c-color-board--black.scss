@@ -1,0 +1,11 @@
+@use '../../global/breakpoint' as m;
+
+// サイドメニューの黒い背景
+
+@include m.mq(sp) {
+  .c-color-board--black {
+    width: 375px;
+    height: 2716px;
+    background: rgba(0, 0, 0, 0.501961);
+  }
+}

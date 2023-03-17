@@ -3,7 +3,7 @@
 
 @include m.mq(sp) {
   .p-content {
-    height: 1200px;
+    height: 642px;
     padding: 0% 10px;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,7 @@
   .p-content {
     // width: 40%;
     height: 681px;
-    padding: 0% 10px;
+    padding: 0% 10px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

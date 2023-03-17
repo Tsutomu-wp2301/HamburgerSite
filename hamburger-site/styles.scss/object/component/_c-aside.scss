@@ -3,12 +3,14 @@
 @include m.mq(sp) {
   .c-aside {
     width: 328px;
+    height: 2716px;
   }
 }
 
 @include m.mq(tab) {
   .c-aside {
     width: 367px;
+    height: 2716px;
   }
 }
 
