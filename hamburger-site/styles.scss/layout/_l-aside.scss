@@ -1,7 +1,41 @@
 @use '../global/breakpoint' as m;
+
+
+// スマホとタブレットでサイドメニューを左側に隠す
+
+@include m.mq(sp) {
   .l-aside {
-  @include m.mq(pc) {
     position: absolute;
-    left: -18.85vw;
+    left: 100%;
+    top: 0%;
+    transition: 0.3s;
+  }
+}
+@include m.mq(tab) {
+  .l-aside {
+    position: absolute;
+    left: 100%;
+    top: 0%;
+    transition: 0.3s;
+  }
+}
+@include m.mq(pc) {
+  .l-aside {
+    position: static;
+  }
+}
+
+// is-activeでサイドメニューを表示させる
+
+@include m.mq(sp) {
+  .l-aside.is-active {
+    left: calc(100vw - 328px);
+    transition-delay: 0.5s;
+  }
+}
+@include m.mq(tab) {
+  .l-aside.is-active {
+    left: calc(100vw - 367px);
+    transition-delay: 0.5s;
   }
 }
