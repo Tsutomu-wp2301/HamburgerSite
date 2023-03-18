@@ -125,10 +125,10 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 90%;
+    width: 94%;
     margin-top: 10px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
   }
   .l-content__item--wrapper .c-content__item:nth-of-type(1) {
     margin-bottom: 0px;
@@ -184,7 +184,7 @@ aside {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 4% 0% 5%;
+    margin: 20px 0px 25px;
   }
   .l-content--wrapper .p-content:nth-child(1) {
     width: 45%;
@@ -201,7 +201,7 @@ aside {
     width: 81.15vw;
     display: flex;
     justify-content: center;
-    margin: 4% 0% 5%;
+    margin: 54px 0px 65px;
   }
   .l-content--wrapper .p-content:nth-child(1) {
     margin-right: 0%;
@@ -476,8 +476,8 @@ aside {
   .c-title::after {
     display: block;
     content: "";
-    height: 4px;
-    width: 35px;
+    height: 2px;
+    width: 75px;
     background-color: white;
     margin-top: 15px;
   }
@@ -488,7 +488,7 @@ aside {
     margin-left: 10%;
   }
   .c-title.map::after {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 30px;
   }
 }
@@ -502,7 +502,7 @@ aside {
     display: block;
     content: "";
     height: 2px;
-    width: 55px;
+    width: 75px;
     background-color: white;
     margin-top: 25px;
   }
@@ -513,7 +513,7 @@ aside {
     margin-left: 10%;
   }
   .c-title.map::after {
-    margin-top: 40px;
+    margin-top: 25px;
     margin-bottom: 30px;
   }
 }
@@ -527,7 +527,7 @@ aside {
     display: block;
     content: "";
     height: 2px;
-    width: 55px;
+    width: 75px;
     background-color: white;
     margin-top: 25px;
   }
@@ -538,7 +538,7 @@ aside {
     margin-left: 10%;
   }
   .c-title.map::after {
-    margin-top: 40px;
+    margin-top: 25px;
     margin-bottom: 30px;
   }
 }
@@ -546,7 +546,8 @@ aside {
   .c-content__item {
     background-color: rgba(255, 255, 255, 0.7);
     height: 156px;
-    padding: 12px;
+    width: 100%;
+    padding: 13px 18px 13px 15px;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -558,7 +559,6 @@ aside {
   }
   .c-content__item p {
     font-size: 16px;
-    padding-bottom: 10px;
   }
 }
 @media screen and (min-width:801px) {
@@ -637,6 +637,7 @@ aside {
 @media screen and (min-width: 1250px) {
   .c-map {
     height: 650px;
+    width: 81.15vw;
     background-image: url(../hamburger-site/image/map.png);
     background-size: cover;
     background-position: center;
@@ -788,15 +789,16 @@ aside {
 }
 @media screen and (min-width: 1250px) {
   .c-aside {
-    width: 18.85%;
+    width: 18.85vw;
     min-width: 300px;
   }
 }
 @media screen and (max-width: 800px) {
   .c-slide--button {
-    position: fixed;
-    left: 90%;
-    font-size: 2rem;
+    position: absolute;
+    right: 10px;
+    top: -20px;
+    font-size: 1.5rem;
     color: #707070;
     font-family: "Roboto";
     font-weight: bold;
@@ -805,8 +807,9 @@ aside {
 }
 @media screen and (min-width:801px) {
   .c-slide--button {
-    position: fixed;
-    left: 90%;
+    position: absolute;
+    right: 20px;
+    top: 0%;
     font-size: 2rem;
     color: #707070;
     font-family: "Roboto";
@@ -824,6 +827,18 @@ aside {
     width: 375px;
     height: 2716px;
     background: rgba(0, 0, 0, 0.501961);
+  }
+}
+@media screen and (min-width:801px) {
+  .c-color-board--black {
+    width: 375px;
+    height: 2716px;
+    background: rgba(0, 0, 0, 0.501961);
+  }
+}
+@media screen and (min-width: 1250px) {
+  .c-color-board--black {
+    display: none;
   }
 }
 @media screen and (max-width: 800px) {

@@ -9,8 +9,8 @@
     &::after {
       display: block;
       content: "";
-      height: 4px;
-      width: 35px;
+      height: 2px;
+      width: 75px;
       background-color: white;
       margin-top: 15px;
     }
@@ -20,7 +20,7 @@
       margin-top: 8%;
       margin-left: 10%;
       &::after {
-        margin-top: 40px;
+        margin-top: 20px;
         margin-bottom: 30px;
       }
     }
@@ -36,7 +36,7 @@
       display: block;
       content: "";
       height: 2px;
-      width: 55px;
+      width: 75px;
       background-color: white;
       margin-top: 25px;
     }
@@ -46,7 +46,7 @@
       margin-top: 8%;
       margin-left: 10%;
       &::after {
-        margin-top: 40px;
+        margin-top: 25px;
         margin-bottom: 30px;
       }
     }
@@ -62,7 +62,7 @@
       display: block;
       content: "";
       height: 2px;
-      width: 55px;
+      width: 75px;
       background-color: white;
       margin-top: 25px;
     }
@@ -72,7 +72,7 @@
       margin-top: 8%;
       margin-left: 10%;
       &::after {
-        margin-top: 40px;
+        margin-top: 25px;
         margin-bottom: 30px;
       }
     }
