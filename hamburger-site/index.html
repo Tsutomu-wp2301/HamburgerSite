@@ -10,6 +10,7 @@
   <meta name="vewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="c-body">
+  <div class="c-color-board--black"></div>
   <div class="l-flex--wrapper">
     <main class="c-main">
       <header class="c-header l-header">
@@ -59,9 +60,8 @@
         </div>
       </article>
     </main>
-    <div class="l-aside--wrapper">
-      <div class="c-color-board--black"></div>
       <aside class="c-aside c-aside--fonts l-aside l-aside__font-layout">
+        <button class="c-menu-close"><p>Menuを閉じる</p></button>
         <h2>Menu</h2>
         <h3>バーガー</h3>
         <ul>
@@ -92,7 +92,6 @@
           <li>コーヒー(Ice/Hot)</li>
         </ul>
       </aside>
-    </div>
   </div>
   <footer class="l-footer c-footer">
     <div class="l-footer__layout">
@@ -103,17 +102,27 @@
     <p class="copyright">Copyright :  RaisTech</p>
   </footer>
 
-  <!-- <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
   <script>
     $(function(){
-      $('.js-hamburger').on({'click' : function(){
-       $('.line').toggleClass('OnClick'),
-       $('.js-hamburger > a').toggleClass('OnClick'),
-       $('.header__logo__menu').toggleClass('OnClick');
+      $('.c-slide--button').on({'click' : function(){
+       $('.c-color-board--black').toggleClass('is-active'),
+       $('.l-aside').toggleClass('is-active');
       }
       });
     });
-  </script> -->
+  </script>
+
+<script>
+  $(function(){
+    $('.c-menu-close').on({'click' : function(){
+     $('.c-color-board--black').toggleClass('is-active'),
+     $('.l-aside').toggleClass('is-active');
+    }
+    });
+  });
+</script>
 
 </body>
 </html>

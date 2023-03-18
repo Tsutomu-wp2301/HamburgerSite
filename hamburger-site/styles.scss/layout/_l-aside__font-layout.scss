@@ -2,7 +2,7 @@
 
 @include m.mq(sp) {
   .l-aside__font-layout {
-    padding-top: 75px;
+    padding-top: 100px;
     h2{
       display: none;
     }
@@ -24,7 +24,7 @@
 
 @include m.mq(tab) {
   .l-aside__font-layout {
-    padding-top: 75px;
+    padding-top: 100px;
     h2{
       display: none;
     }
