@@ -5,20 +5,20 @@
 
 @include m.mq(sp) {
   .l-aside--wrapper {
-    position: relative;
+    position: absolute;
     display: flex;
-    // left:100%;
-    // z-index: 100;
+    left:100%;
+    z-index: 100;
   }
 }
 
 
 @include m.mq(tab) {
     .l-aside--wrapper {
-    position: relative;
+    position: absolute;
     display: flex;
     left: 100%;
-    // z-index: 100;
+    z-index: 100;
   }
 }
 

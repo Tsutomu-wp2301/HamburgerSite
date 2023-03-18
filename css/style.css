@@ -13,11 +13,13 @@ body {
 @media screen and (max-width: 800px) {
   .c-aside {
     width: 350px;
+    background-color: #F2EDE9;
   }
 }
 @media screen and (min-width: 1250px) {
   .c-aside {
     width: 18.85vw;
+    background-color: #F2EDE9;
   }
 }
 @media screen and (max-width: 800px) {
@@ -37,20 +39,17 @@ body {
 }
 .c-footer {
   display: block;
-  height: 150px;
+  height: 149px;
   width: 100%;
   background-color: #9D8670;
   background-image: url(../hamburger-site/image/bg--footer.png);
+  background-repeat: repeat;
 }
 .c-footer .copyright {
   font-family: "M+ 1m";
 }
 .c-footer p {
   font-family: "M+ 1m";
-}
-
-aside {
-  background-color: #F2EDE9;
 }
 
 @media screen and (max-width: 800px) {
@@ -182,17 +181,18 @@ aside {
     max-width: 3000px;
     width: 100vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin: 20px 0px 25px;
+    margin: 39px 0px 40px;
   }
   .l-content--wrapper .p-content:nth-child(1) {
-    width: 45%;
-    margin-right: 0%;
+    width: 42.5%;
+    margin-right: 2.4%;
   }
   .l-content--wrapper .p-content:nth-child(2) {
-    width: 45%;
+    width: 42.5%;
     position: relative;
+    margin-left: 2.4%;
   }
 }
 @media screen and (min-width: 1250px) {
@@ -201,12 +201,14 @@ aside {
     width: 81.15vw;
     display: flex;
     justify-content: center;
-    margin: 54px 0px 65px;
+    margin: 120px 0px 130px;
   }
   .l-content--wrapper .p-content:nth-child(1) {
-    margin-right: 0%;
+    width: 40%;
+    margin-right: 3%;
   }
   .l-content--wrapper .p-content:nth-child(2) {
+    width: 40%;
     margin-left: 3%;
   }
 }
@@ -246,30 +248,80 @@ aside {
     align-items: center;
   }
 }
-.l-aside__font-layout {
-  padding-top: 60px;
+@media screen and (max-width: 800px) {
+  .l-aside__font-layout {
+    padding-top: 75px;
+  }
+  .l-aside__font-layout h2 {
+    display: none;
+  }
+  .l-aside__font-layout h3 {
+    margin: 43px 43px 32px;
+  }
+  .l-aside__font-layout h3:nth-of-type(1) {
+    margin-top: 48px;
+  }
+  .l-aside__font-layout li {
+    margin: 20px 20px;
+  }
+  ul {
+    margin-left: 20px;
+  }
 }
-.l-aside__font-layout h2 {
-  margin-left: 20px;
+@media screen and (min-width:801px) {
+  .l-aside__font-layout {
+    padding-top: 75px;
+  }
+  .l-aside__font-layout h2 {
+    display: none;
+  }
+  .l-aside__font-layout h3 {
+    margin: 43px 43px 32px;
+  }
+  .l-aside__font-layout h3:nth-of-type(1) {
+    margin-top: 48px;
+  }
+  .l-aside__font-layout li {
+    margin: 20px 20px;
+  }
+  ul {
+    margin-left: 20px;
+  }
 }
-.l-aside__font-layout h3 {
-  margin: 50px 20px 40px;
+@media screen and (min-width: 1250px) {
+  .l-aside__font-layout {
+    padding-top: 75px;
+  }
+  .l-aside__font-layout h2 {
+    margin-left: 43px;
+  }
+  .l-aside__font-layout h3 {
+    margin: 43px 43px 32px;
+  }
+  .l-aside__font-layout h3:nth-of-type(1) {
+    margin-top: 90px;
+  }
+  .l-aside__font-layout li {
+    margin: 20px 20px;
+  }
+  ul {
+    margin-left: 20px;
+  }
 }
-.l-aside__font-layout li {
-  margin: 20px 20px;
-}
-
 @media screen and (max-width: 800px) {
   .l-aside--wrapper {
-    position: relative;
+    position: absolute;
     display: flex;
+    left: 100%;
+    z-index: 100;
   }
 }
 @media screen and (min-width:801px) {
   .l-aside--wrapper {
-    position: relative;
+    position: absolute;
     display: flex;
     left: 100%;
+    z-index: 100;
   }
 }
 @media screen and (min-width: 1250px) {
@@ -277,6 +329,13 @@ aside {
     position: static;
   }
 }
+@media screen and (min-width: 1250px) {
+  .l-aside {
+    position: absolute;
+    left: -18.85vw;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .c-header {
     width: 100vw;
@@ -705,13 +764,13 @@ aside {
   font-weight: bold;
 }
 .c-aside--fonts h3 {
-  font-size: 1.8rem;
+  font-size: 24px;
   color: #707070;
   font-family: "M+ 1m";
   font-weight: bold;
 }
 .c-aside--fonts li {
-  font-size: 1.5rem;
+  font-size: 20px;
   color: #707070;
   list-style: none;
   font-family: "M+ 1m";
@@ -784,12 +843,13 @@ aside {
 @media screen and (min-width:801px) {
   .c-aside {
     width: 367px;
-    height: 2716px;
+    height: 1826px;
   }
 }
 @media screen and (min-width: 1250px) {
   .c-aside {
     width: 18.85vw;
+    height: 2843px;
     min-width: 300px;
   }
 }
@@ -832,7 +892,7 @@ aside {
 @media screen and (min-width:801px) {
   .c-color-board--black {
     width: 375px;
-    height: 2716px;
+    height: 1826px;
     background: rgba(0, 0, 0, 0.501961);
   }
 }
@@ -863,7 +923,6 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     width: 42.5%;
-    margin: 0% 3% 0% 3%;
   }
   .p-content .c-title {
     font-family: "Roboto";
@@ -872,12 +931,11 @@ aside {
 }
 @media screen and (min-width: 1250px) {
   .p-content {
-    height: 1200px;
-    padding: 0% 10px;
+    width: 40%;
+    height: 1196px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 40%;
   }
   .p-content .c-title {
     font-family: "Roboto";
