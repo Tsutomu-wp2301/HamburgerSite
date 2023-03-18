@@ -293,6 +293,7 @@ body {
     padding-top: 75px;
   }
   .l-aside__font-layout h2 {
+    display: block;
     margin-left: 43px;
   }
   .l-aside__font-layout h3 {
