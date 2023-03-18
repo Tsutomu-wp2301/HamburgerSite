@@ -5,7 +5,8 @@
   .c-content__item {
     background-color: rgba(255,255,255,0.7);
     height: 156px;
-    padding: 12px;
+    width: 100%;
+    padding: 13px 18px 13px 15px;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -16,7 +17,6 @@
     }
     p {
     font-size: 16px;
-    padding-bottom: 10px;
     }
   }
 }

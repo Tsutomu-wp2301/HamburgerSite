@@ -3,9 +3,10 @@
 
 @include m.mq(sp) {
   .c-slide--button {
-    position: fixed;
-    left: 90%;
-    font-size: 2rem;
+    position: absolute;
+    right: 10px;
+    top: -20px;
+    font-size: 1.5rem;
     color: #707070;
     font-family: "Roboto";
     font-weight: bold;
@@ -16,8 +17,9 @@
 
 @include m.mq(tab) {
   .c-slide--button {
-    position: fixed;
-    left: 90%;
+    position: absolute;
+    right: 20px;
+    top: 0%;
     font-size: 2rem;
     color: #707070;
     font-family: "Roboto";
@@ -29,12 +31,5 @@
 @include m.mq(pc) {
   .c-slide--button {
     display: none;
-    // position: fixed;
-    // left: 90%;
-    // font-size: 2rem;
-    // color: #707070;
-    // font-family: "Roboto";
-    // font-weight: bold;
-    // margin-top: 20px;
   }
 }

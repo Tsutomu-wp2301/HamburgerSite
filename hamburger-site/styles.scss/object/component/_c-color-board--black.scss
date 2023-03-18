@@ -9,3 +9,17 @@
     background: rgba(0, 0, 0, 0.501961);
   }
 }
+
+@include m.mq(tab) {
+  .c-color-board--black {
+    width: 375px;
+    height: 2716px;
+    background: rgba(0, 0, 0, 0.501961);
+  }
+}
+
+@include m.mq(pc) {
+  .c-color-board--black {
+    display: none;
+  }
+}
