@@ -10,17 +10,17 @@ body {
   font-family: "M+ 1m";
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-main {
     width: 100vw;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-main {
     width: 100vw;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .c-main {
     width: 81.15vw;
   }
@@ -40,7 +40,7 @@ body {
   font-family: "M+ 1m";
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .l-footer {
     display: flex;
     flex-direction: column;
@@ -50,7 +50,7 @@ body {
     align-items: center;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .l-footer {
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ body {
     align-items: center;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .l-footer {
     display: flex;
     flex-direction: column;
@@ -70,7 +70,7 @@ body {
     align-items: center;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .l-header {
     display: flex;
     flex-direction: column;
@@ -78,7 +78,7 @@ body {
     align-items: center;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .l-header {
     display: flex;
     flex-direction: column;
@@ -92,7 +92,7 @@ body {
     margin-top: 20px;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .l-header {
     display: flex;
     justify-content: space-between;
@@ -107,7 +107,7 @@ body {
     margin-top: 20px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .l-content__item--wrapper {
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@ body {
     margin-bottom: 0px;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .l-content__item--wrapper {
     display: flex;
     flex-direction: column;
@@ -134,7 +134,7 @@ body {
     margin-bottom: 0px;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .l-content__item--wrapper {
     display: flex;
     flex-direction: column;
@@ -147,7 +147,7 @@ body {
     margin-bottom: 0px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .l-content--wrapper {
     width: 100vw;
     display: flex;
@@ -164,7 +164,7 @@ body {
     margin-bottom: 20px;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .l-content--wrapper {
     max-width: 3000px;
     width: 100vw;
@@ -183,7 +183,7 @@ body {
     margin-left: 2.4%;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .l-content--wrapper {
     max-width: 3000px;
     width: 81.15vw;
@@ -200,31 +200,31 @@ body {
     margin-left: 3%;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .l-flex--wrapper {
     display: flex;
     width: 100vw;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .l-footer__layout {
     display: flex;
     align-items: center;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .l-footer__layout {
     display: flex;
     align-items: center;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .l-footer__layout {
     display: flex;
     align-items: center;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .l-aside__font-layout {
     padding-top: 100px;
   }
@@ -244,7 +244,7 @@ body {
     margin-left: 20px;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .l-aside__font-layout {
     padding-top: 100px;
   }
@@ -264,7 +264,7 @@ body {
     margin-left: 20px;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .l-aside__font-layout {
     padding-top: 75px;
   }
@@ -285,7 +285,7 @@ body {
     margin-left: 20px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .l-aside--wrapper {
     position: absolute;
     display: flex;
@@ -293,7 +293,7 @@ body {
     z-index: 100;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .l-aside--wrapper {
     position: absolute;
     display: flex;
@@ -301,12 +301,12 @@ body {
     z-index: 100;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .l-aside {
     position: static;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .l-aside {
     position: absolute;
     left: 100%;
@@ -314,7 +314,7 @@ body {
     transition: 0.3s;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .l-aside {
     position: absolute;
     left: 100%;
@@ -322,31 +322,31 @@ body {
     transition: 0.3s;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .l-aside {
     position: static;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .l-aside.is-active {
     left: calc(100vw - 328px);
     transition-delay: 0.5s;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .l-aside.is-active {
     left: calc(100vw - 367px);
     transition-delay: 0.5s;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-header {
     width: 100vw;
     height: 217px;
     background-color: #FFF7EF;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-header {
     width: 100vw;
     max-width: 3000px;
@@ -354,7 +354,7 @@ body {
     background-color: #FFF7EF;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .c-header {
     width: 81.15vw;
     max-width: 3000px;
@@ -362,7 +362,7 @@ body {
     background-color: #FFF7EF;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-logo {
     display: inline-block;
     color: #707070;
@@ -374,7 +374,7 @@ body {
     margin-top: 20px;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-logo {
     color: #707070;
     font-size: 53px;
@@ -383,7 +383,7 @@ body {
     font-weight: bold;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .c-logo {
     color: #707070;
     font-size: 63px;
@@ -392,7 +392,7 @@ body {
     font-weight: bold;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-search-area {
     width: 216px;
     height: 46px;
@@ -404,7 +404,7 @@ body {
     text-indent: 2.5rem;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-search-area {
     width: 396px;
     height: 46px;
@@ -416,7 +416,7 @@ body {
     text-indent: 2.8rem;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .c-search-area {
     width: 396px;
     height: 46px;
@@ -428,7 +428,7 @@ body {
     text-indent: 2.8rem;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   button.c-button {
     width: 90px;
     height: 46px;
@@ -439,7 +439,7 @@ body {
     margin-left: 5px;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   button.c-button {
     width: 136px;
     height: 46px;
@@ -450,7 +450,7 @@ body {
     margin-left: 5px;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   button.c-button {
     width: 136px;
     height: 46px;
@@ -461,7 +461,7 @@ body {
     margin-left: 5px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-main-image {
     width: 100vw;
     background-image: url(../hamburger-site/image/mainvisual-pc.jpg);
@@ -478,7 +478,7 @@ body {
     margin-left: 25px;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-main-image {
     background-image: url(../hamburger-site/image/mainvisual-pc.jpg);
     background-position: center;
@@ -496,7 +496,7 @@ body {
     margin-left: 85px;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .c-main-image {
     background-image: url(../hamburger-site/image/mainvisual-pc.jpg);
     background-position: center;
@@ -529,7 +529,7 @@ body {
   background-position: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-title {
     font-size: 41px;
     margin: 10px;
@@ -554,9 +554,9 @@ body {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-title {
-    font-size: 4rem;
+    font-size: 44px;
     margin: 10px;
     color: white;
   }
@@ -579,9 +579,9 @@ body {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .c-title {
-    font-size: 4rem;
+    font-size: 80px;
     margin: 10px;
     color: white;
   }
@@ -604,7 +604,7 @@ body {
     margin-bottom: 30px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-content__item {
     background-color: rgba(255, 255, 255, 0.7);
     height: 156px;
@@ -623,7 +623,7 @@ body {
     font-size: 16px;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-content__item {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 15px;
@@ -639,7 +639,7 @@ body {
     font-size: 1rem;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .c-content__item {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 15px;
@@ -655,7 +655,7 @@ body {
     font-size: 1rem;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-map {
     margin-top: 30px;
     height: 691px;
@@ -676,7 +676,7 @@ body {
     font-weight: bold;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-map {
     height: 415px;
     width: 100vw;
@@ -696,7 +696,7 @@ body {
     font-weight: bold;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .c-map {
     height: 650px;
     width: 81.15vw;
@@ -724,7 +724,7 @@ body {
   margin: 0px 10px 0px 11px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-footer a {
     text-decoration: none;
   }
@@ -736,7 +736,7 @@ body {
     font-size: 0.7rem;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-footer a {
     text-decoration: none;
   }
@@ -748,7 +748,7 @@ body {
     font-size: 0.9rem;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .c-footer a {
     text-decoration: none;
   }
@@ -781,7 +781,7 @@ body {
   margin-left: 3rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-search {
     display: flex;
     align-items: center;
@@ -789,14 +789,14 @@ body {
     position: relative;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-search {
     display: flex;
     align-items: center;
     position: relative;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .c-search {
     display: flex;
     align-items: center;
@@ -804,7 +804,7 @@ body {
     margin-right: 30px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-search--icon {
     background-image: url(../hamburger-site/image/270mushimegane.png);
     background-size: cover;
@@ -815,7 +815,7 @@ body {
     margin-left: 8px;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-search--icon {
     background-image: url(../hamburger-site/image/270mushimegane.png);
     background-size: cover;
@@ -826,7 +826,7 @@ body {
     margin-left: 10px;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .c-search--icon {
     background-image: url(../hamburger-site/image/270mushimegane.png);
     background-size: cover;
@@ -837,21 +837,21 @@ body {
     margin-left: 10px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-aside {
     width: 328px;
     height: 2716px;
     background-color: #FFF7EF;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-aside {
     width: 367px;
     height: 1826px;
     background-color: #FFF7EF;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .c-aside {
     width: 18.85vw;
     height: 2843px;
@@ -859,7 +859,7 @@ body {
     background-color: #FFF7EF;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-slide--button {
     position: absolute;
     right: 10px;
@@ -869,9 +869,12 @@ body {
     font-family: "Roboto";
     font-weight: bold;
     margin-top: 28px;
+    opacity: 1;
+    transition: 0.5s;
+    z-index: 2;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-slide--button {
     position: absolute;
     right: 20px;
@@ -881,16 +884,30 @@ body {
     font-family: "Roboto";
     font-weight: bold;
     margin-top: 20px;
+    opacity: 1;
+    transition: 0.5s;
+    z-index: 2;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (max-width: 700px) {
+  .c-slide--button.is-active {
+    opacity: 0;
+  }
+}
+@media screen and (min-width:700.5px) {
+  .c-slide--button.is-active {
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
   .c-slide--button {
     display: none;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-color-board--black {
     position: absolute;
+    top: 0px;
     opacity: 0;
     transition: 500ms;
     width: 100vw;
@@ -898,32 +915,33 @@ body {
     background: rgba(0, 0, 0, 0.501961);
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-color-board--black {
     position: absolute;
     opacity: 0;
+    top: 0px;
     transition: 500ms;
     width: 100vw;
     height: 1826px;
     background: rgba(0, 0, 0, 0.501961);
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-color-board--black.is-active {
     opacity: 1;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-color-board--black.is-active {
     opacity: 1;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .c-color-board--black {
     display: none;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .c-menu-close {
     height: 50px;
     width: 50px;
@@ -958,7 +976,7 @@ body {
     top: -3px;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .c-menu-close {
     height: 60px;
     width: 60px;
@@ -993,12 +1011,12 @@ body {
     top: -3px;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .c-menu-close {
     display: none;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .p-content {
     height: 642px;
     padding: 0% 10px;
@@ -1012,7 +1030,7 @@ body {
     font-weight: bold;
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .p-content {
     height: 681px;
     padding: 0% 10px 10px;
@@ -1026,7 +1044,7 @@ body {
     font-weight: bold;
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .p-content {
     width: 40%;
     height: 1196px;
@@ -1039,21 +1057,21 @@ body {
     font-weight: bold;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .color-board {
     width: 100vw;
     height: 415px;
     background-color: rgba(0, 0, 0, 0.6);
   }
 }
-@media screen and (min-width:801px) {
+@media screen and (min-width:700.5px) {
   .color-board {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
   }
 }
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1200px) {
   .color-board {
     width: 65%;
     height: 100%;
