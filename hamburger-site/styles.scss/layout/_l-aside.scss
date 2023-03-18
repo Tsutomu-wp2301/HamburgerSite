@@ -1,0 +1,7 @@
+@use '../global/breakpoint' as m;
+  .l-aside {
+  @include m.mq(pc) {
+    position: absolute;
+    left: -18.85vw;
+  }
+}
