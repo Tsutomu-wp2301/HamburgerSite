@@ -29,7 +29,7 @@
 
 @include m.mq(tab) {
   .c-title {
-    font-size: 4rem;
+    font-size: 44px;
     margin: 10px;
     color: white;
     &::after {
@@ -55,7 +55,7 @@
 
 @include m.mq(pc) {
   .c-title {
-    font-size: 4rem;
+    font-size: 80px;
     margin: 10px;
     color: white;
     &::after {

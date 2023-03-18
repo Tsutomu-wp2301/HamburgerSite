@@ -6,6 +6,7 @@
 @include m.mq(sp) {
   .c-color-board--black {
     position: absolute;
+    top: 0px;
     opacity: 0;
     transition: 500ms;
     width: 100vw;
@@ -17,6 +18,7 @@
   .c-color-board--black {
     position: absolute;
     opacity: 0;
+    top: 0px;
     transition: 500ms;
     width: 100vw;
     height: 1826px;

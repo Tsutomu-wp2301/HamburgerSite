@@ -10,11 +10,11 @@
   <meta name="vewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="c-body">
-  <div class="c-color-board--black"></div>
+ 
   <div class="l-flex--wrapper">
     <main class="c-main">
+      <button class="c-slide--button"><a>Menu</a></button><!-- メニュー表示ボタン -->
       <header class="c-header l-header">
-        <button class="c-slide--button"><a>Menu</a></button>
         <div class="c-logo">Hamburger</div>
         <div class="c-search">
           <input type="search" class="c-search-area">
@@ -53,6 +53,7 @@
           </div>
         </div>
       </article>
+      <div class="c-color-board--black"></div><!-- メニュー展開時に画面を暗くする -->
       <article class="c-map">
         <div class="color-board">
           <h2 class="c-title map">見出しが入ります</h2>
@@ -60,38 +61,36 @@
         </div>
       </article>
     </main>
-      <aside class="c-aside c-aside--fonts l-aside l-aside__font-layout">
-        <button class="c-menu-close"><p>Menuを閉じる</p></button>
-        <h2>Menu</h2>
-        <h3>バーガー</h3>
-        <ul>
-          <li>ハンバーガー</li>
-          <li>チーズバーガー</li>
-          <li>テリヤキバーガー</li>
-          <li>アボカドバーガー</li>
-          <li>フィッシュバーガー</li>
-          <li>ベーコンバーガー</li>
-          <li>チキンバーガー</li>
-        </ul>
-
-        <h3>サイド</h3>
-        <ul>
-          <li>ポテト</li>
-          <li>サラダ</li>
-          <li>ナゲット</li>
-          <li>コーン</li>
-        </ul>
-
-        <h3>ドリンク</h3>
-        <ul>
-          <li>コーラ</li>
-          <li>ファンタ</li>
-          <li>オレンジ</li>
-          <li>アップル</li>
-          <li>紅茶(Ice/Hot)</li>
-          <li>コーヒー(Ice/Hot)</li>
-        </ul>
-      </aside>
+    <aside class="c-aside c-aside--fonts l-aside l-aside__font-layout">
+      <button class="c-menu-close"><p>Menuを閉じる</p></button><!-- メニュー閉じるボタン -->
+      <h2>Menu</h2>
+      <h3>バーガー</h3>
+      <ul>
+        <li>ハンバーガー</li>
+        <li>チーズバーガー</li>
+        <li>テリヤキバーガー</li>
+        <li>アボカドバーガー</li>
+        <li>フィッシュバーガー</li>
+        <li>ベーコンバーガー</li>
+        <li>チキンバーガー</li>
+      </ul>
+      <h3>サイド</h3>
+      <ul>
+        <li>ポテト</li>
+        <li>サラダ</li>
+        <li>ナゲット</li>
+        <li>コーン</li>
+      </ul>
+      <h3>ドリンク</h3>
+      <ul>
+        <li>コーラ</li>
+        <li>ファンタ</li>
+        <li>オレンジ</li>
+        <li>アップル</li>
+        <li>紅茶(Ice/Hot)</li>
+        <li>コーヒー(Ice/Hot)</li>
+      </ul>
+    </aside>
   </div>
   <footer class="l-footer c-footer">
     <div class="l-footer__layout">
@@ -102,18 +101,18 @@
     <p class="copyright">Copyright :  RaisTech</p>
   </footer>
 
+  <!-- is-activのトグルクラス -->
   <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-
   <script>
     $(function(){
       $('.c-slide--button').on({'click' : function(){
        $('.c-color-board--black').toggleClass('is-active'),
+       $('.c-slide--button').toggleClass('is-active'),
        $('.l-aside').toggleClass('is-active');
       }
       });
     });
   </script>
-
 <script>
   $(function(){
     $('.c-menu-close').on({'click' : function(){
