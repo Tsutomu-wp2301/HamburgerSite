@@ -9,19 +9,23 @@
     &::after {
       display: block;
       content: "";
-      height: 2px;
-      width: 75px;
+      height: 4px;
+      width: 36px;
       background-color: white;
       margin-top: 15px;
     }
     &.map {
       display: inline-block;
-      font-size: 2rem;
+      font-family: "M+ 1m";
+      font-weight: bold;
+      font-size: 30px;
       margin-top: 8%;
       margin-left: 10%;
       &::after {
         margin-top: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 7px;
+        height: 2px;
+        width: 75px;
       }
     }
   }
@@ -35,21 +39,26 @@
     &::after {
       display: block;
       content: "";
-      height: 2px;
-      width: 75px;
+      height: 4px;
+      width: 36px;
       background-color: white;
-      margin-top: 25px;
+      margin-top: 20px;
     }
     &.map {
       display: inline-block;
-      font-size: 2rem;
+      font-family: "M+ 1m";
+      font-weight: bold;
+      font-size: 30px;
       margin-top: 8%;
       margin-left: 10%;
       &::after {
-        margin-top: 25px;
-        margin-bottom: 30px;
+        margin-top:15px;
+        margin-bottom: 7px;
+        height: 2px;
+        width: 75px;
       }
     }
+
   }
 }
 
@@ -61,19 +70,23 @@
     &::after {
       display: block;
       content: "";
-      height: 2px;
-      width: 75px;
+      height: 4px;
+      width: 63px;
       background-color: white;
-      margin-top: 25px;
+      margin-top: 30px;
     }
     &.map {
       display: inline-block;
-      font-size: 2rem;
-      margin-top: 8%;
+      font-family: "M+ 1m";
+      font-weight: bold;
+      font-size: 36px;
+      margin-top: 10%;
       margin-left: 10%;
       &::after {
-        margin-top: 25px;
-        margin-bottom: 30px;
+        margin-top: 50px;
+        margin-bottom: 45px;
+        height: 2px;
+        width: 75px;
       }
     }
   }
