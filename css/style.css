@@ -8,6 +8,7 @@ body {
   max-width: 2500vw;
   margin: auto;
   font-family: "M+ 1m";
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 700px) {
@@ -538,20 +539,24 @@ body {
   .c-title::after {
     display: block;
     content: "";
-    height: 2px;
-    width: 75px;
+    height: 4px;
+    width: 36px;
     background-color: white;
     margin-top: 15px;
   }
   .c-title.map {
     display: inline-block;
-    font-size: 2rem;
+    font-family: "M+ 1m";
+    font-weight: bold;
+    font-size: 30px;
     margin-top: 8%;
     margin-left: 10%;
   }
   .c-title.map::after {
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 7px;
+    height: 2px;
+    width: 75px;
   }
 }
 @media screen and (min-width:700.5px) {
@@ -563,20 +568,24 @@ body {
   .c-title::after {
     display: block;
     content: "";
-    height: 2px;
-    width: 75px;
+    height: 4px;
+    width: 36px;
     background-color: white;
-    margin-top: 25px;
+    margin-top: 20px;
   }
   .c-title.map {
     display: inline-block;
-    font-size: 2rem;
+    font-family: "M+ 1m";
+    font-weight: bold;
+    font-size: 30px;
     margin-top: 8%;
     margin-left: 10%;
   }
   .c-title.map::after {
-    margin-top: 25px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    height: 2px;
+    width: 75px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -588,20 +597,24 @@ body {
   .c-title::after {
     display: block;
     content: "";
-    height: 2px;
-    width: 75px;
+    height: 4px;
+    width: 63px;
     background-color: white;
-    margin-top: 25px;
+    margin-top: 30px;
   }
   .c-title.map {
     display: inline-block;
-    font-size: 2rem;
-    margin-top: 8%;
+    font-family: "M+ 1m";
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 10%;
     margin-left: 10%;
   }
   .c-title.map::after {
-    margin-top: 25px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    height: 2px;
+    width: 75px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -632,11 +645,11 @@ body {
     margin-bottom: 15px;
   }
   .c-content__item h3 {
-    font-size: 1.4rem;
+    font-size: 24px;
     margin-bottom: 8px;
   }
   .c-content__item p {
-    font-size: 1rem;
+    font-size: 14px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -648,11 +661,11 @@ body {
     margin-bottom: 15px;
   }
   .c-content__item h3 {
-    font-size: 1.4rem;
+    font-size: 24px;
     margin-bottom: 8px;
   }
   .c-content__item p {
-    font-size: 1rem;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -666,14 +679,12 @@ body {
   }
   .c-map p {
     color: white;
-    font-size: 1rem;
+    font-size: 14px;
+    font-family: "M+ 1m";
+    font-weight: bold;
     padding-left: 10%;
     padding-right: 10%;
     line-height: 1.8rem;
-    font-weight: bold;
-  }
-  .c-map h2 {
-    font-weight: bold;
   }
 }
 @media screen and (min-width:700.5px) {
@@ -686,14 +697,12 @@ body {
   }
   .c-map p {
     color: white;
-    font-size: 1rem;
+    font-size: 16px;
+    font-family: "M+ 1m";
+    font-weight: bold;
     padding-left: 10%;
-    padding-right: 140px;
+    padding-right: 10%;
     line-height: 1.8rem;
-    font-weight: bold;
-  }
-  .c-map h2 {
-    font-weight: bold;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -706,14 +715,12 @@ body {
   }
   .c-map p {
     color: white;
-    font-size: 1rem;
+    font-size: 16px;
+    font-family: "M+ 1m";
+    font-weight: bold;
     padding-left: 10%;
     padding-right: 140px;
     line-height: 1.8rem;
-    font-weight: bold;
-  }
-  .c-map h2 {
-    font-weight: bold;
   }
 }
 .c-line {
@@ -760,27 +767,72 @@ body {
     font-size: 0.9rem;
   }
 }
-.c-aside--fonts h2 {
-  font-size: 2.2rem;
-  color: #707070;
-  font-family: "Roboto";
-  font-weight: bold;
+@media screen and (max-width: 700px) {
+  .c-aside--fonts h2 {
+    font-size: 34px;
+    color: #707070;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .c-aside--fonts h3 {
+    font-size: 24px;
+    color: #707070;
+    font-family: "M+ 1m";
+    font-weight: bold;
+  }
+  .c-aside--fonts li {
+    font-size: 20px;
+    color: #707070;
+    list-style: none;
+    font-family: "M+ 1m";
+    font-weight: "regular";
+    margin-left: 3rem;
+  }
 }
-.c-aside--fonts h3 {
-  font-size: 24px;
-  color: #707070;
-  font-family: "M+ 1m";
-  font-weight: bold;
+@media screen and (min-width:700.5px) {
+  .c-aside--fonts h2 {
+    font-size: 34px;
+    color: #707070;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .c-aside--fonts h3 {
+    font-size: 24px;
+    color: #707070;
+    font-family: "M+ 1m";
+    font-weight: bold;
+  }
+  .c-aside--fonts li {
+    font-size: 20px;
+    color: #707070;
+    list-style: none;
+    font-family: "M+ 1m";
+    font-weight: "regular";
+    margin-left: 3rem;
+  }
 }
-.c-aside--fonts li {
-  font-size: 20px;
-  color: #707070;
-  list-style: none;
-  font-family: "M+ 1m";
-  font-weight: "regular";
-  margin-left: 3rem;
+@media screen and (min-width: 1200px) {
+  .c-aside--fonts h2 {
+    font-size: 34px;
+    color: #707070;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+  .c-aside--fonts h3 {
+    font-size: 24px;
+    color: #707070;
+    font-family: "M+ 1m";
+    font-weight: bold;
+  }
+  .c-aside--fonts li {
+    font-size: 20px;
+    color: #707070;
+    list-style: none;
+    font-family: "M+ 1m";
+    font-weight: "regular";
+    margin-left: 3rem;
+  }
 }
-
 @media screen and (max-width: 700px) {
   .c-search {
     display: flex;
@@ -841,14 +893,14 @@ body {
   .c-aside {
     width: 328px;
     height: 2716px;
-    background-color: #FFF7EF;
+    background-color: #F2EDE9;
   }
 }
 @media screen and (min-width:700.5px) {
   .c-aside {
     width: 367px;
     height: 1826px;
-    background-color: #FFF7EF;
+    background-color: #F2EDE9;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -856,7 +908,7 @@ body {
     width: 18.85vw;
     height: 2843px;
     min-width: 300px;
-    background-color: #FFF7EF;
+    background-color: #F2EDE9;
   }
 }
 @media screen and (max-width: 700px) {
@@ -942,18 +994,18 @@ body {
   }
 }
 @media screen and (max-width: 700px) {
-  .c-menu-close {
+  .c-button-close {
     height: 50px;
     width: 50px;
-    background-color: #FFF7EF;
+    background-color: #F2EDE9;
     position: relative;
     left: 275px;
     top: -95px;
   }
-  .c-menu-close p {
+  .c-button-close p {
     font-size: 0px;
   }
-  .c-menu-close ::before {
+  .c-button-close ::before {
     content: "";
     display: block;
     height: 6px;
@@ -964,7 +1016,7 @@ body {
     left: 2px;
     top: 3px;
   }
-  .c-menu-close ::after {
+  .c-button-close ::after {
     content: "";
     display: block;
     height: 6px;
@@ -977,18 +1029,18 @@ body {
   }
 }
 @media screen and (min-width:700.5px) {
-  .c-menu-close {
+  .c-button-close {
     height: 60px;
     width: 60px;
-    background-color: #FFF7EF;
+    background-color: #F2EDE9;
     position: relative;
     left: 295px;
     top: -80px;
   }
-  .c-menu-close p {
+  .c-button-close p {
     font-size: 0px;
   }
-  .c-menu-close ::before {
+  .c-button-close ::before {
     content: "";
     display: block;
     height: 6px;
@@ -999,7 +1051,7 @@ body {
     left: 2px;
     top: 3px;
   }
-  .c-menu-close ::after {
+  .c-button-close ::after {
     content: "";
     display: block;
     height: 6px;
@@ -1012,7 +1064,7 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
-  .c-menu-close {
+  .c-button-close {
     display: none;
   }
 }
