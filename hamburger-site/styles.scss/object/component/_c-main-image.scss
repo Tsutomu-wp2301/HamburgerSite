@@ -3,24 +3,24 @@
 @include m.mq(sp) {
   .c-main-image {
     width: 100vw;
-    background-image: url(../hamburger-site/image/mainvisual-pc.jpg);
+    background-image: url(../image/mainvisual-pc.jpg);
     background-position: center;
     background-size: cover;
     height: 285px;
     display: flex;
     align-items: center;
+    padding-left: 25px;
   }
-      h1 {
-        display: inline-block;
-        font-size: 35px;
-        color: white;
-        margin-left: 25px;
-      }
+  h1 {
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+  }
 }
 
 @include m.mq(tab) {
   .c-main-image {
-    background-image: url(../hamburger-site/image/mainvisual-pc.jpg);
+    background-image: url(../image/mainvisual-pc.jpg);
     background-position: center;
     background-size: cover;
     max-width: 3000px;
@@ -28,18 +28,18 @@
     height: 285px;
     display: flex;
     align-items: center;
-      h1 {
-        display: inline-block;
-        font-size: 35px;
-        color: white;
-        margin-left: 85px;
-      }
+    padding-left: 85px;
+  }
+  h1 {
+    display: inline-block;
+    font-size: 35px;
+    color: white;
   }
 }
 
 @include m.mq(pc) {
   .c-main-image {
-    background-image: url(../hamburger-site/image/mainvisual-pc.jpg);
+    background-image: url(../image/mainvisual-pc.jpg);
     background-position: center;
     background-size: cover;
     max-width: 3000px;
@@ -47,11 +47,11 @@
     height: 530px;
     display: flex;
     align-items: center;
-      h1 {
-        display: inline-block;
-        font-size: 35px;
-        color: white;
-        margin-left: 85px;
-      }
+    padding-left: 85px;
+  }
+  h1 {
+    display: inline-block;
+    font-size: 35px;
+    color: white;
   }
 }

@@ -10,9 +10,9 @@
     border-radius: 10px;
     margin-right: 5px;
     text-indent: 2.5rem;
+    padding-right: 10px;
   }
 }
-
 
 @include m.mq(tab) {
   .c-search-area {
@@ -24,6 +24,7 @@
     border-radius: 10px;
     margin-right: 5px;
     text-indent: 2.8rem;
+    padding-right: 10px;
   }
 }
 
@@ -37,5 +38,6 @@
     border-radius: 10px;
     margin-right: 5px;
     text-indent: 2.8rem;
+    padding-right: 10px;
   }
 }

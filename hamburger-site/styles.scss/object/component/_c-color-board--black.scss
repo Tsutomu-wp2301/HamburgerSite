@@ -30,11 +30,13 @@
 @include m.mq(sp) {
   .c-color-board--black.is-active {
     opacity: 1;
+    z-index: 50;
   }
 }
 @include m.mq(tab) {
   .c-color-board--black.is-active {
     opacity: 1;
+    z-index: 50;
   }
 }
 

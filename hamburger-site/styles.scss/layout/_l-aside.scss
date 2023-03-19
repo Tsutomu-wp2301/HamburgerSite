@@ -9,6 +9,7 @@
     left: 100%;
     top: 0%;
     transition: 0.3s;
+    z-index: 200;
   }
 }
 @include m.mq(tab) {
@@ -17,6 +18,7 @@
     left: 100%;
     top: 0%;
     transition: 0.3s;
+    z-index: 200;
   }
 }
 @include m.mq(pc) {
@@ -31,11 +33,13 @@
   .l-aside.is-active {
     left: calc(100vw - 328px);
     transition-delay: 0.5s;
+    z-index: 200;
   }
 }
 @include m.mq(tab) {
   .l-aside.is-active {
     left: calc(100vw - 367px);
     transition-delay: 0.5s;
+    z-index: 200;
   }
 }
