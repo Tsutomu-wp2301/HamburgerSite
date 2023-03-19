@@ -31,7 +31,7 @@ body {
   height: 149px;
   width: 100%;
   background-color: #9D8670;
-  background-image: url(../hamburger-site/image/bg--footer.png);
+  background-image: url(../image/bg--footer.png);
   background-repeat: repeat;
 }
 .c-footer .copyright {
@@ -313,6 +313,7 @@ body {
     left: 100%;
     top: 0%;
     transition: 0.3s;
+    z-index: 200;
   }
 }
 @media screen and (min-width:700.5px) {
@@ -321,6 +322,7 @@ body {
     left: 100%;
     top: 0%;
     transition: 0.3s;
+    z-index: 200;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -332,12 +334,14 @@ body {
   .l-aside.is-active {
     left: calc(100vw - 328px);
     transition-delay: 0.5s;
+    z-index: 200;
   }
 }
 @media screen and (min-width:700.5px) {
   .l-aside.is-active {
     left: calc(100vw - 367px);
     transition-delay: 0.5s;
+    z-index: 200;
   }
 }
 @media screen and (max-width: 700px) {
@@ -403,6 +407,7 @@ body {
     border-radius: 10px;
     margin-right: 5px;
     text-indent: 2.5rem;
+    padding-right: 10px;
   }
 }
 @media screen and (min-width:700.5px) {
@@ -415,6 +420,7 @@ body {
     border-radius: 10px;
     margin-right: 5px;
     text-indent: 2.8rem;
+    padding-right: 10px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -427,6 +433,7 @@ body {
     border-radius: 10px;
     margin-right: 5px;
     text-indent: 2.8rem;
+    padding-right: 10px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -435,8 +442,11 @@ body {
     height: 46px;
     background-color: #ccc5c5;
     border-radius: 10px;
-    border: 2px #707070 sorid;
+    border: 1px #707070 solid;
     font-size: 15px;
+    color: #707070;
+    font-family: "M+ 1m";
+    font-weight: bold;
     margin-left: 5px;
   }
 }
@@ -446,8 +456,11 @@ body {
     height: 46px;
     background-color: #ccc5c5;
     border-radius: 10px;
-    border: 2px #707070 sorid;
+    border: 1px #707070 solid;
     font-size: 15px;
+    color: #707070;
+    font-family: "M+ 1m";
+    font-weight: bold;
     margin-left: 5px;
   }
 }
@@ -457,31 +470,34 @@ body {
     height: 46px;
     background-color: #ccc5c5;
     border-radius: 10px;
-    border: 2px #707070 sorid;
+    border: 1px #707070 solid;
     font-size: 15px;
+    color: #707070;
+    font-family: "M+ 1m";
+    font-weight: bold;
     margin-left: 5px;
   }
 }
 @media screen and (max-width: 700px) {
   .c-main-image {
     width: 100vw;
-    background-image: url(../hamburger-site/image/mainvisual-pc.jpg);
+    background-image: url(../image/mainvisual-pc.jpg);
     background-position: center;
     background-size: cover;
     height: 285px;
     display: flex;
     align-items: center;
+    padding-left: 25px;
   }
   h1 {
     display: inline-block;
     font-size: 35px;
     color: white;
-    margin-left: 25px;
   }
 }
 @media screen and (min-width:700.5px) {
   .c-main-image {
-    background-image: url(../hamburger-site/image/mainvisual-pc.jpg);
+    background-image: url(../image/mainvisual-pc.jpg);
     background-position: center;
     background-size: cover;
     max-width: 3000px;
@@ -489,17 +505,17 @@ body {
     height: 285px;
     display: flex;
     align-items: center;
+    padding-left: 85px;
   }
-  .c-main-image h1 {
+  h1 {
     display: inline-block;
     font-size: 35px;
     color: white;
-    margin-left: 85px;
   }
 }
 @media screen and (min-width: 1200px) {
   .c-main-image {
-    background-image: url(../hamburger-site/image/mainvisual-pc.jpg);
+    background-image: url(../image/mainvisual-pc.jpg);
     background-position: center;
     background-size: cover;
     max-width: 3000px;
@@ -507,24 +523,24 @@ body {
     height: 530px;
     display: flex;
     align-items: center;
+    padding-left: 85px;
   }
-  .c-main-image h1 {
+  h1 {
     display: inline-block;
     font-size: 35px;
     color: white;
-    margin-left: 85px;
   }
 }
 .c-content--bg {
   width: 90%;
-  background-image: url(../hamburger-site/image/take-out.png);
+  background-image: url(../image/take-out.png);
   overflow: hidden;
   background-size: cover;
   background-position: center;
 }
 .c-content--bg--EatIn {
   width: 90%;
-  background-image: url(../hamburger-site/image/eat-in.png);
+  background-image: url(../image/eat-in.png);
   overflow: hidden;
   background-size: cover;
   background-position: center;
@@ -673,7 +689,7 @@ body {
     margin-top: 30px;
     height: 691px;
     width: 100vw;
-    background-image: url(../hamburger-site/image/map.png);
+    background-image: url(../image/map.png);
     background-size: cover;
     background-position: center;
   }
@@ -691,7 +707,7 @@ body {
   .c-map {
     height: 415px;
     width: 100vw;
-    background-image: url(../hamburger-site/image/map.png);
+    background-image: url(../image/map.png);
     background-size: cover;
     background-position: center;
   }
@@ -709,7 +725,7 @@ body {
   .c-map {
     height: 650px;
     width: 81.15vw;
-    background-image: url(../hamburger-site/image/map.png);
+    background-image: url(../image/map.png);
     background-size: cover;
     background-position: center;
   }
@@ -858,7 +874,7 @@ body {
 }
 @media screen and (max-width: 700px) {
   .c-search--icon {
-    background-image: url(../hamburger-site/image/270mushimegane.png);
+    background-image: url(../image/270mushimegane.png);
     background-size: cover;
     display: block;
     height: 25px;
@@ -869,7 +885,7 @@ body {
 }
 @media screen and (min-width:700.5px) {
   .c-search--icon {
-    background-image: url(../hamburger-site/image/270mushimegane.png);
+    background-image: url(../image/270mushimegane.png);
     background-size: cover;
     display: block;
     height: 25px;
@@ -880,7 +896,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .c-search--icon {
-    background-image: url(../hamburger-site/image/270mushimegane.png);
+    background-image: url(../image/270mushimegane.png);
     background-size: cover;
     display: block;
     height: 25px;
@@ -981,11 +997,13 @@ body {
 @media screen and (max-width: 700px) {
   .c-color-board--black.is-active {
     opacity: 1;
+    z-index: 50;
   }
 }
 @media screen and (min-width:700.5px) {
   .c-color-board--black.is-active {
     opacity: 1;
+    z-index: 50;
   }
 }
 @media screen and (min-width: 1200px) {

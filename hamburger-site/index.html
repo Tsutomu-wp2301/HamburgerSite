@@ -10,23 +10,21 @@
   <meta name="vewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="c-body">
- 
   <div class="l-flex--wrapper">
     <main class="c-main">
       <button class="c-slide--button"><a>Menu</a></button><!-- メニュー表示ボタン -->
+      <div class="c-color-board--black"></div><!-- メニュー展開時に画面を暗くする -->
       <header class="c-header l-header">
-        <div class="c-logo">Hamburger</div>
-        <div class="c-search">
+        <P class="c-logo">Hamburger</P>
+        <form class="c-search">
           <input type="search" class="c-search-area">
           <button class="c-button">検索</button>
           <div class="c-search--icon"></div>
-        </div>
+        </form>
       </header>
-      <div class="c-main-image">
-        <h1>ダミーサイト</h1>
-      </div>
+      <h1 class="c-main-image">ダミーサイト</h1>
       <article class="l-content--wrapper">
-        <div class="p-content c-content--bg">
+        <section class="p-content c-content--bg">
           <h2 class="c-title">Take Out</h2>
           <div class="l-content__item--wrapper">
             <div class="c-content__item">
@@ -38,8 +36,8 @@
               <p>当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています</p>
             </div>
           </div>
-        </div>
-        <div class="p-content c-content--bg--EatIn">
+        </section>
+        <section class="p-content c-content--bg--EatIn">
           <h2 class="c-title">Eat In</h2>
           <div class="l-content__item--wrapper">
             <div class="c-content__item">
@@ -51,9 +49,8 @@
               <p>店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニュー</p>
             </div>
           </div>
-        </div>
+        </section>
       </article>
-      <div class="c-color-board--black"></div><!-- メニュー展開時に画面を暗くする -->
       <article class="c-map">
         <div class="color-board">
           <h2 class="c-title map">見出しが入ります</h2>
@@ -101,27 +98,10 @@
     <p class="copyright">Copyright :  RaisTech</p>
   </footer>
 
-  <!-- is-activのトグルクラス -->
+  <!-- jQuery -->
   <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-  <script>
-    $(function(){
-      $('.c-slide--button').on({'click' : function(){
-       $('.c-color-board--black').toggleClass('is-active'),
-       $('.c-slide--button').toggleClass('is-active'),
-       $('.l-aside').toggleClass('is-active');
-      }
-      });
-    });
-  </script>
-<script>
-  $(function(){
-    $('.c-button-close').on({'click' : function(){
-     $('.c-color-board--black').toggleClass('is-active'),
-     $('.l-aside').toggleClass('is-active');
-    }
-    });
-  });
-</script>
-
-</body>
+  <!-- is-activのトグルクラス -->
+  <script src="JS/toggle-class--open.js"></script>
+  <script src="JS/toggle-class--close.js"></script>
+  </body>
 </html>
