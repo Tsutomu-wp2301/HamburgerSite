@@ -1,8 +1,8 @@
-@use '../../global/breakpoint' as m;
+@use '../../foundation/breakpoint' as m;
 
 
 @include m.mq(sp) {
-  .c-search {
+  .p-search {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -11,19 +11,20 @@
 }
 
 @include m.mq(tab) {
-  .c-search {
+  .p-search {
     display: flex;
     align-items: center;
-    // margin-bottom: 20px;
     position: relative;
+    margin-bottom: 20px;
   }
 }
 
 @include m.mq(pc) {
-  .c-search {
+  .p-search {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     margin-right: 30px;
+    margin-top: 20px;
   }
 }

@@ -1,9 +1,9 @@
-@use '../../global/breakpoint' as m;
+@use '../../foundation/breakpoint' as m;
 
 
 
 @include m.mq(sp) {
-  .c-aside--fonts {
+  .p-aside--fonts {
     h2 {
       font-size: 34px;
       color: #707070; 
@@ -26,7 +26,7 @@
     }
   }
 }@include m.mq(tab) {
-  .c-aside--fonts {
+  .p-aside--fonts {
     h2 {
       font-size: 34px;
       color: #707070; 
@@ -51,7 +51,7 @@
 }
 
 @include m.mq(pc) {
-  .c-aside--fonts {
+  .p-aside--fonts {
     h2 {
       font-size: 34px;
       color: #707070; 

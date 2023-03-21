@@ -1,4 +1,4 @@
-@use '../../global/breakpoint' as m;
+@use '../../foundation/breakpoint' as m;
 
 
 @include m.mq(sp) {

@@ -1,20 +1,20 @@
-@use '../global/breakpoint' as m;
+@use '../foundation/breakpoint' as m;
 
 
 @include m.mq(sp) {
-  .c-main {
+  .l-main {
     width: 100vw;
   }
 }
 
 @include m.mq(tab) {
-  .c-main {
+  .l-main {
     width: 100vw;
   }
 }
 
 @include m.mq(pc) {
-  .c-main {
+  .l-main {
     width: 81.15vw;
   }
 }

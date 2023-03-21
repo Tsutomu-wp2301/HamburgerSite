@@ -1,6 +1,6 @@
-@use '../../global/breakpoint' as m;
+@use '../../foundation/breakpoint' as m;
 
-.c-content--bg {
+.p-content--bg {
   width: 90%;
   background-image: url(../image/take-out.png);
   overflow: hidden;

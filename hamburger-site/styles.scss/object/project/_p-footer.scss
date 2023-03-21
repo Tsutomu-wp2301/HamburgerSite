@@ -1,8 +1,10 @@
-@use '../../global/breakpoint' as m;
+@use '../../foundation/breakpoint' as m;
 
+
+// フッターの文字サイズ
 
 @include m.mq(sp) {
-  .c-footer {
+  .l-footer {
     a {
       text-decoration: none;
     }
@@ -17,7 +19,7 @@
 }
 
 @include m.mq(tab) {
-  .c-footer {
+  .l-footer {
     a {
       text-decoration: none;
     }
@@ -32,7 +34,7 @@
 }
 
 @include m.mq(pc) {
-  .c-footer {
+  .l-footer {
     a {
       text-decoration: none;
     }
