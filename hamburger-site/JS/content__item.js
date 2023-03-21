@@ -1,11 +1,11 @@
-let textareas = document.getElementsByClassName("p-content__item");
 
-for (let i = 0; i < textareas.length; i++) {
-  textareas[i].addEventListener("input", function() {
-    for (let j = 0; j < textareas.length; j++) {
-      if (textareas[j] != this) {
-        textareas[j].style.height = this.scrollHeight + "px";
-      }
-    }
+// テキストエリアを同じ高さにする
+$(function() {
+  $('.p-content--wrapper').each(function(i, box) {
+      let maxHeight = 0;
+      $(box).find('.p-content__item').each(function() {
+          if ($(this).height() > maxHeight) maxHeight = $(this).height();
+      });
+      $(box).find('.p-content__item').height(maxHeight);
   });
-}
+});
