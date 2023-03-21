@@ -1,7 +1,7 @@
-@use '../../global/breakpoint' as m;
+@use '../../foundation/breakpoint' as m;
 
 @include m.mq(sp) {
-  .c-main-image {
+  .p-main-image {
     width: 100vw;
     background-image: url(../image/mainvisual-pc.jpg);
     background-position: center;
@@ -19,7 +19,7 @@
 }
 
 @include m.mq(tab) {
-  .c-main-image {
+  .p-main-image {
     background-image: url(../image/mainvisual-pc.jpg);
     background-position: center;
     background-size: cover;
@@ -38,7 +38,7 @@
 }
 
 @include m.mq(pc) {
-  .c-main-image {
+  .p-main-image {
     background-image: url(../image/mainvisual-pc.jpg);
     background-position: center;
     background-size: cover;

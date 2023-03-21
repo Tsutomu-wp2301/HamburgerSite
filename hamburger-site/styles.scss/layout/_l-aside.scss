@@ -1,8 +1,7 @@
-@use '../global/breakpoint' as m;
+@use '../foundation/breakpoint' as m;
 
 
 // スマホとタブレットでサイドメニューを左側に隠す
-
 @include m.mq(sp) {
   .l-aside {
     position: absolute;
@@ -21,6 +20,8 @@
     z-index: 200;
   }
 }
+
+// PCではフレックスを適用させる
 @include m.mq(pc) {
   .l-aside {
     position: static;
@@ -28,7 +29,6 @@
 }
 
 // is-activeでサイドメニューを表示させる
-
 @include m.mq(sp) {
   .l-aside.is-active {
     left: calc(100vw - 328px);

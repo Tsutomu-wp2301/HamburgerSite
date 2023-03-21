@@ -1,4 +1,4 @@
-@use '../global/breakpoint' as m;
+@use '../foundation/breakpoint' as m;
 
 @include m.mq(sp) {
   .l-header {
@@ -6,6 +6,9 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    width: 100vw;
+    height: 217px;
+    background-color: #FFF7EF;
   }
 }
 
@@ -15,6 +18,10 @@
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
+      width: 100vw;
+      max-width: 3000px;
+      height: 217px;
+      background-color: #FFF7EF;
         .c-search {
           margin-bottom: 30px;
         }
@@ -24,13 +31,16 @@
     }
   }
 
-
 @include m.mq(pc) {
   .l-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    width: 81.15vw;
+    max-width: 3000px;
+    height: 217px;
+    background-color: #FFF7EF;
     .c-logo {
       margin-left: 70px;
       margin-top: -10px;
