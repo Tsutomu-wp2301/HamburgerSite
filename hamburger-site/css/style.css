@@ -641,7 +641,7 @@ body {
 @media screen and (max-width: 700px) {
   .c-color-board {
     width: 100vw;
-    height: 415px;
+    min-height: 415px;
     background-color: rgba(0, 0, 0, 0.6);
   }
 }

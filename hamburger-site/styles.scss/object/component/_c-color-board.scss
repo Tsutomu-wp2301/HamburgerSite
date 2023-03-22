@@ -4,7 +4,7 @@
 @include m.mq(sp) {
   .c-color-board {
     width: 100vw;
-    height: 415px;
+    min-height: 415px;
     background-color: rgba(0,0,0,0.6);
   }
 }
