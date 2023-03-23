@@ -1,51 +1,8 @@
 @use '../foundation/breakpoint' as m;
 
-
 // フッター全体の定義
 .l-footer {
   height: 149px;
   width: 100%;
-  background-color: #9D8670;
-  background-image: url(../image/bg--footer.png);
-  background-repeat: repeat;
-  .copyright {
-    font-family: "M+ 1m";
-  }
-  p{
-    font-family: "M+ 1m";
-  }
 }
 
-@include m.mq(sp) {
-  .l-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    align-items: center;
-  }
-}
-
-@include m.mq(tab) {
-  .l-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 25px;
-    align-items: center;
-  }
-}
-
-@include m.mq(pc) {
-  .l-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-top: 40px;
-    padding-bottom: 35px;
-    align-items: center;
-    // z-index: 1000;
-  }
-}
