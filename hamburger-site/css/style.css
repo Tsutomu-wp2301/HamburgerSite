@@ -120,67 +120,6 @@ body {
   }
 }
 @media screen and (max-width: 700px) {
-  .l-aside__font-layout {
-    padding-top: 100px;
-  }
-  .l-aside__font-layout h2 {
-    display: none;
-  }
-  .l-aside__font-layout h3 {
-    margin: 43px 43px 32px;
-  }
-  .l-aside__font-layout h3:nth-of-type(1) {
-    margin-top: 48px;
-  }
-  .l-aside__font-layout li {
-    margin: 20px 20px;
-  }
-  ul {
-    margin-left: 20px;
-  }
-}
-@media screen and (min-width:700.5px) {
-  .l-aside__font-layout {
-    padding-top: 100px;
-  }
-  .l-aside__font-layout h2 {
-    display: none;
-  }
-  .l-aside__font-layout h3 {
-    margin: 43px 43px 32px;
-  }
-  .l-aside__font-layout h3:nth-of-type(1) {
-    margin-top: 48px;
-  }
-  .l-aside__font-layout li {
-    margin: 20px 20px;
-  }
-  ul {
-    margin-left: 20px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .l-aside__font-layout {
-    padding-top: 75px;
-  }
-  .l-aside__font-layout h2 {
-    display: block;
-    margin-left: 43px;
-  }
-  .l-aside__font-layout h3 {
-    margin: 43px 43px 32px;
-  }
-  .l-aside__font-layout h3:nth-of-type(1) {
-    margin-top: 90px;
-  }
-  .l-aside__font-layout li {
-    margin: 20px 20px;
-  }
-  ul {
-    margin-left: 20px;
-  }
-}
-@media screen and (max-width: 700px) {
   .l-aside {
     position: absolute;
     left: 100%;
@@ -771,13 +710,45 @@ body {
     width: 328px;
     height: 2716px;
     background-color: #F2EDE9;
+    padding-top: 100px;
+  }
+  .p-aside h2 {
+    display: none;
+  }
+  .p-aside h3 {
+    margin: 43px 43px 32px;
+  }
+  .p-aside h3:nth-of-type(1) {
+    margin-top: 48px;
+  }
+  .p-aside li {
+    margin: 20px 20px;
+  }
+  ul {
+    margin-left: 20px;
   }
 }
 @media screen and (min-width:700.5px) {
   .p-aside {
+    padding-top: 100px;
     width: 367px;
     height: 1826px;
     background-color: #F2EDE9;
+  }
+  .p-aside h2 {
+    display: none;
+  }
+  .p-aside h3 {
+    margin: 43px 43px 32px;
+  }
+  .p-aside h3:nth-of-type(1) {
+    margin-top: 48px;
+  }
+  .p-aside li {
+    margin: 20px 20px;
+  }
+  ul {
+    margin-left: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -786,6 +757,23 @@ body {
     height: 2843px;
     min-width: 300px;
     background-color: #F2EDE9;
+    padding-top: 75px;
+  }
+  .p-aside h2 {
+    display: block;
+    margin-left: 43px;
+  }
+  .p-aside h3 {
+    margin: 43px 43px 32px;
+  }
+  .p-aside h3:nth-of-type(1) {
+    margin-top: 90px;
+  }
+  .p-aside li {
+    margin: 20px 20px;
+  }
+  ul {
+    margin-left: 20px;
   }
 }
 @media screen and (max-width: 700px) {

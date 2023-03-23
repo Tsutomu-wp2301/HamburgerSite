@@ -1,21 +1,54 @@
 @use '../../foundation/breakpoint'as m;
 
+
 @include m.mq(sp) {
   .p-aside {
     width: 328px;
     height: 2716px;
     background-color: #F2EDE9;
+    padding-top: 100px;
+    h2{
+      display: none;
+    }
+    h3 {
+      margin: 43px 43px 32px;
+    }
+    h3:nth-of-type(1) {
+      margin-top: 48px;
+    }
+    li {
+      margin: 20px 20px;
+    }
+  }
+  ul {
+    margin-left: 20px;
   }
 }
+
 
 @include m.mq(tab) {
   .p-aside {
+    padding-top: 100px;
     width: 367px;
     height: 1826px;
     background-color: #F2EDE9;
+    h2{
+      display: none;
+    }
+    h3 {
+      margin: 43px 43px 32px;
+    }
+    h3:nth-of-type(1) {
+      margin-top: 48px;
+    }
+    li {
+      margin: 20px 20px;
+    }
+  }
+  ul {
+    margin-left: 20px;
   }
 }
-
 
 @include m.mq(pc) {
   .p-aside {
@@ -23,5 +56,22 @@
     height: 2843px;
     min-width: 300px;
     background-color: #F2EDE9;
+    padding-top: 75px;
+    h2{
+      display: block;
+      margin-left: 43px;
+    }
+    h3 {
+      margin: 43px 43px 32px;
+    }
+    h3:nth-of-type(1) {
+      margin-top: 90px;
+    }
+    li {
+      margin: 20px 20px;
+    }
+  }
+  ul {
+    margin-left: 20px;
   }
 }
