@@ -1,10 +1,32 @@
 @use '../../foundation/breakpoint' as m;
 
+// フッター共通の指定
+.p-footer {
+  background-color: #9D8670;
+  background-image: url(../image/bg--footer.png);
+  background-repeat: repeat;
+  .l-footer__layout {
+    display: flex;
+    align-items: center;
+  }
+  .copyright {
+    font-family: "M+ 1m";
+  }
+  p{
+    font-family: "M+ 1m";
+  }
+}
 
-// フッターの文字サイズ
 
+// フッターのメディアクエリ
 @include m.mq(sp) {
-  .l-footer {
+  .p-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
     a {
       text-decoration: none;
     }
@@ -19,7 +41,13 @@
 }
 
 @include m.mq(tab) {
-  .l-footer {
+  .p-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    align-items: center;
     a {
       text-decoration: none;
     }
@@ -34,7 +62,13 @@
 }
 
 @include m.mq(pc) {
-  .l-footer {
+  .p-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    align-items: center;
     a {
       text-decoration: none;
     }

@@ -2,51 +2,23 @@
 
 @include m.mq(sp) {
   .l-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     width: 100vw;
     height: 217px;
-    background-color: #FFF7EF;
   }
 }
 
 @include m.mq(tab) {
     .l-header {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
       width: 100vw;
       max-width: 3000px;
       height: 217px;
-      background-color: #FFF7EF;
-        .c-search {
-          margin-bottom: 30px;
-        }
-        .c-logo {
-          margin-top: 20px;
-        }
     }
   }
 
 @include m.mq(pc) {
   .l-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
     width: 81.15vw;
     max-width: 3000px;
     height: 217px;
-    background-color: #FFF7EF;
-    .c-logo {
-      margin-left: 70px;
-      margin-top: -10px;
-    }
-    .c-search {
-      margin-top: 20px;
-    }
   }
 }
