@@ -1,6 +1,7 @@
 @use '../../foundation/breakpoint' as m;
 
 
+// ヘッダーのメディアクエリ
 @include m.mq(sp) {
   .p-header {
     display: flex;
