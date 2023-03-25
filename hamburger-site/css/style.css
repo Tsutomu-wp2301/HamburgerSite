@@ -56,6 +56,7 @@ body {
     left: calc(100vw - 328px);
     transition-delay: 0.5s;
     z-index: 200;
+    position: fixed;
   }
 }
 @media screen and (min-width:700.5px) {
@@ -63,6 +64,7 @@ body {
     left: calc(100vw - 367px);
     transition-delay: 0.5s;
     z-index: 200;
+    position: fixed;
   }
 }
 .l-body {
@@ -398,12 +400,14 @@ body {
   .c-color-board--black.is-active {
     opacity: 1;
     z-index: 50;
+    position: fixed;
   }
 }
 @media screen and (min-width:700.5px) {
   .c-color-board--black.is-active {
     opacity: 1;
     z-index: 50;
+    position: fixed;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -515,6 +519,7 @@ body {
 }
 @media screen and (max-width: 700px) {
   .p-content {
+    height: auto;
     min-height: 642px;
     padding: 0% 10px;
     display: flex;
@@ -694,6 +699,7 @@ body {
 @media screen and (max-width: 700px) {
   .p-map {
     margin-top: 30px;
+    height: auto;
     min-height: 691px;
     width: 100vw;
     background-image: url(../image/map.png);
