@@ -1,4 +1,7 @@
 // サイドメニューの高さをc-flexに合わせる
+
 $(function() {
-  $('.js-height').matchHeight();
+  $(window).on('resize', function() {
+    $('.js-height').matchHeight();
+  }).trigger('resize');
 });
