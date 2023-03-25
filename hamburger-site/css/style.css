@@ -495,6 +495,7 @@ body {
     width: 100vw;
     min-height: 415px;
     background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 30px;
   }
 }
 @media screen and (min-width:700.5px) {
@@ -502,6 +503,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 50px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -509,12 +511,14 @@ body {
     width: 65%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 50px;
   }
 }
 @media screen and (min-width: 1200px) {
   .c-flex {
     display: flex;
     width: 100vw;
+    height: 100%;
   }
 }
 @media screen and (max-width: 700px) {
@@ -713,7 +717,7 @@ body {
     font-weight: bold;
     padding-left: 10%;
     padding-right: 10%;
-    line-height: 1.8rem;
+    line-height: 2.2;
   }
 }
 @media screen and (min-width:700.5px) {
@@ -731,7 +735,7 @@ body {
     font-weight: bold;
     padding-left: 10%;
     padding-right: 10%;
-    line-height: 1.8rem;
+    line-height: 2.2;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -749,7 +753,7 @@ body {
     font-weight: bold;
     padding-left: 10%;
     padding-right: 140px;
-    line-height: 1.8rem;
+    line-height: 2.2;
   }
 }
 @media screen and (max-width: 700px) {
