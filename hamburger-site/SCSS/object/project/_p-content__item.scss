@@ -23,6 +23,7 @@
 @include m.mq(tab) {
   .p-content__item {
     background-color: rgba(255,255,255,0.7);
+    width: 100%;
     padding: 15px;
     margin: auto;
     margin-top: 15px;
@@ -40,6 +41,7 @@
 @include m.mq(pc) {
   .p-content__item {
     background-color: rgba(255,255,255,0.7);
+    width: 100%;
     padding: 15px;
     margin: auto;
     margin-top: 15px;

@@ -816,6 +816,7 @@ body {
 @media screen and (min-width:700.5px) {
   .p-content__item {
     background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
     padding: 15px;
     margin: auto;
     margin-top: 15px;
@@ -832,6 +833,7 @@ body {
 @media screen and (min-width: 1200px) {
   .p-content__item {
     background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
     padding: 15px;
     margin: auto;
     margin-top: 15px;
