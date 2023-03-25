@@ -1,3 +1,4 @@
+@use '../foundation/breakpoint' as m;
 
 // ページ全体を画面幅に、横スクロール不可にする
 .l-body {
@@ -8,3 +9,16 @@
   overflow-x: hidden;
 }
 
+
+// メニューが表示されているとき、スクロールさせない
+@include m.mq(sp) {
+  .l-body.is-active {
+    position: fixed;
+  }
+}
+
+@include m.mq(tab) {
+  .l-body.is-active {
+    position: fixed;
+  }
+}

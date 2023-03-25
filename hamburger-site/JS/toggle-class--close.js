@@ -7,6 +7,7 @@ $(function(){
     $('.c-color-board--black').toggleClass('is-active'),
     $('.c-slide--button').toggleClass('is-active'),
     $('.l-aside').toggleClass('is-active');
+    $('.l-body').toggleClass('is-active');
     }
   });
 });

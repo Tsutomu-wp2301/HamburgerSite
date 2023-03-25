@@ -1,11 +1,12 @@
 
 // テキストエリアを同じ高さにする
-$(function() {
-  $('.p-content--wrapper').each(function(i, box) {
+
+$(window).on('resize', function() {
+    $('.p-content--wrapper').each(function(i, box) {
       let maxHeight = 0;
       $(box).find('.p-content__item').each(function() {
-          if ($(this).height() > maxHeight) maxHeight = $(this).height();
+        if ($(this).height() > maxHeight) maxHeight = $(this).height();
       });
       $(box).find('.p-content__item').height(maxHeight);
-  });
+    });
 });
