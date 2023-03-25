@@ -76,6 +76,16 @@ body {
 }
 
 @media screen and (max-width: 700px) {
+  .l-body.is-active {
+    position: fixed;
+  }
+}
+@media screen and (min-width:700.5px) {
+  .l-body.is-active {
+    position: fixed;
+  }
+}
+@media screen and (max-width: 700px) {
   .l-main {
     width: 100vw;
   }
