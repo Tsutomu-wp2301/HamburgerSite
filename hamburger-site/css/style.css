@@ -14,7 +14,7 @@ body {
     height: 217px;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .l-header {
     width: 100vw;
     max-width: 3000px;
@@ -37,7 +37,7 @@ body {
     z-index: 200;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .l-aside {
     position: absolute;
     left: 100%;
@@ -59,7 +59,7 @@ body {
     position: fixed;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .l-aside.is-active {
     left: calc(100vw - 367px);
     transition-delay: 0.5s;
@@ -80,7 +80,7 @@ body {
     position: fixed;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .l-body.is-active {
     position: fixed;
   }
@@ -90,7 +90,7 @@ body {
     width: 100vw;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .l-main {
     width: 100vw;
   }
@@ -112,7 +112,7 @@ body {
     margin-top: 20px;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .c-logo {
     color: #707070;
     font-size: 53px;
@@ -143,7 +143,7 @@ body {
     padding-right: 10px;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .c-search-area {
     width: 396px;
     height: 46px;
@@ -183,7 +183,7 @@ body {
     margin-left: 5px;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   button.c-button {
     width: 136px;
     height: 46px;
@@ -240,7 +240,7 @@ body {
     width: 75px;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .c-title {
     font-size: 44px;
     margin: 10px;
@@ -317,7 +317,7 @@ body {
     margin-left: 8px;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .c-search--icon {
     background-image: url(../image/270mushimegane.png);
     background-size: cover;
@@ -354,7 +354,7 @@ body {
     z-index: 2;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .c-slide--button {
     position: absolute;
     right: 20px;
@@ -374,7 +374,7 @@ body {
     opacity: 0;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .c-slide--button.is-active {
     opacity: 0;
   }
@@ -395,7 +395,7 @@ body {
     background: rgba(0, 0, 0, 0.501961);
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .c-color-board--black {
     position: absolute;
     opacity: 0;
@@ -413,7 +413,7 @@ body {
     position: fixed;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .c-color-board--black.is-active {
     opacity: 1;
     z-index: 50;
@@ -460,7 +460,7 @@ body {
     top: -3px;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .c-button-close {
     height: 60px;
     width: 60px;
@@ -508,7 +508,7 @@ body {
     padding-bottom: 30px;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .c-color-board {
     width: 100%;
     height: 100%;
@@ -546,7 +546,7 @@ body {
     font-weight: bold;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .p-content {
     min-height: 681px;
     padding: 0% 10px 10px;
@@ -595,7 +595,7 @@ body {
     margin-left: 3rem;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .p-aside--fonts h2 {
     font-size: 34px;
     color: #707070;
@@ -662,11 +662,11 @@ body {
     margin-left: 20px;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .p-aside {
     padding-top: 100px;
     width: 367px;
-    height: 1826px;
+    height: 100vh;
     background-color: #F2EDE9;
   }
   .p-aside h2 {
@@ -688,7 +688,6 @@ body {
 @media screen and (min-width: 1200px) {
   .p-aside {
     width: 18.85vw;
-    height: 2843px;
     min-width: 300px;
     background-color: #F2EDE9;
     padding-top: 75px;
@@ -730,7 +729,7 @@ body {
     line-height: 2.2;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .p-map {
     min-height: 415px;
     width: 100vw;
@@ -774,7 +773,7 @@ body {
     position: relative;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .p-search {
     display: flex;
     align-items: center;
@@ -823,7 +822,7 @@ body {
     font-size: 16px;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .p-content__item {
     background-color: rgba(255, 255, 255, 0.7);
     width: 100%;
@@ -874,7 +873,7 @@ body {
     color: white;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .p-main-image {
     background-image: url(../image/mainvisual-pc.jpg);
     background-position: center;
@@ -946,7 +945,7 @@ body {
     font-size: 0.7rem;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .p-footer {
     display: flex;
     flex-direction: column;
@@ -1000,7 +999,7 @@ body {
     margin-bottom: 0px;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .p-content__item--wrapper {
     display: flex;
     flex-direction: column;
@@ -1043,7 +1042,7 @@ body {
     margin-bottom: 20px;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .p-content--wrapper {
     max-width: 3000px;
     width: 100vw;
@@ -1088,7 +1087,7 @@ body {
     background-color: #FFF7EF;
   }
 }
-@media screen and (min-width:700.5px) {
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .p-header {
     display: flex;
     flex-direction: column;
