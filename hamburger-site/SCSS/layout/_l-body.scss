@@ -10,15 +10,3 @@
 }
 
 
-// メニューが表示されているとき、スクロールさせない
-@include m.mq(sp) {
-  .l-body.is-active {
-    position: fixed;
-  }
-}
-
-@include m.mq(tab) {
-  .l-body.is-active {
-    position: fixed;
-  }
-}

@@ -34,7 +34,7 @@
     left: calc(100vw - 328px);
     transition-delay: 0.5s;
     z-index: 200;
-    position: fixed;
+    overflow-y: scroll;
   }
 }
 @include m.mq(tab) {
@@ -42,6 +42,6 @@
     left: calc(100vw - 367px);
     transition-delay: 0.5s;
     z-index: 200;
-    position: fixed;
+    overflow-y: scroll;
   }
 }

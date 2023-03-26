@@ -65,7 +65,7 @@
 @include m.mq(pc) {
   .c-title {
     font-size: 80px;
-    margin: 10px;
+    margin: 10px 25px;
     color: white;
     &::after {
       display: block;

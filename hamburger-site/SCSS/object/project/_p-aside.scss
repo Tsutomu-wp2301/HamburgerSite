@@ -4,7 +4,7 @@
 @include m.mq(sp) {
   .p-aside {
     width: 328px;
-    height: 2716px;
+    min-height: 100vh;
     background-color: #F2EDE9;
     padding-top: 100px;
     h2{
@@ -30,7 +30,7 @@
   .p-aside {
     padding-top: 100px;
     width: 367px;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #F2EDE9;
     h2{
       display: none;
