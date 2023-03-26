@@ -18,3 +18,17 @@
     width: 81.15vw;
   }
 }
+
+
+// メニューが表示されている時にページをスクロールさせない
+@include m.mq(sp) {
+  .l-main.is-active {
+    position: fixed;
+  }
+}
+
+@include m.mq(tab) {
+  .l-main.is-active {
+    position: fixed;
+  }
+}
