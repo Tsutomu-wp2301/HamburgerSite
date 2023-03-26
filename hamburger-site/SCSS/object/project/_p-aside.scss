@@ -30,7 +30,7 @@
   .p-aside {
     padding-top: 100px;
     width: 367px;
-    height: 1826px;
+    height: 100vh;
     background-color: #F2EDE9;
     h2{
       display: none;
@@ -53,7 +53,6 @@
 @include m.mq(pc) {
   .p-aside {
     width: 18.85vw;
-    height: 2843px;
     min-width: 300px;
     background-color: #F2EDE9;
     padding-top: 75px;
