@@ -7,40 +7,41 @@
   .c-color-board--black {
     position: absolute;
     top: 0px;
-    opacity: 0;
-    transition: 500ms;
+    display: none;
     width: 100vw;
-    height: 2716px;
+    height: 100vh;
     background: rgba(0, 0, 0, 0.501961);
   }
 }
 @include m.mq(tab) {
   .c-color-board--black {
     position: absolute;
-    opacity: 0;
-    top: 0px;
-    transition: 500ms;
+    display: none;
     width: 100vw;
-    height: 1826px;
+    height: 100vh;
+    top: 0px;
     background: rgba(0, 0, 0, 0.501961);
   }
 }
 
 // is-activeで黒い背景を表示させる
-@include m.mq(sp) {
-  .c-color-board--black.is-active {
-    opacity: 1;
-    z-index: 50;
-    position: fixed;
-  }
-}
-@include m.mq(tab) {
-  .c-color-board--black.is-active {
-    opacity: 1;
-    z-index: 50;
-    position: fixed;
-  }
-}
+// @include m.mq(sp) {
+//   .c-color-board--black.is-active {
+//     opacity: 1;
+//     z-index: 50;
+//     position: fixed;
+//   }
+// }
+// @include m.mq(tab) {
+//   .c-color-board--black.is-active {
+//     // visibility: 1;
+//     // opacity: 1;
+//     display: none;
+//     top: 0;
+//     z-index: 50;
+//     position: fixed;
+//   }
+// }
 
 
 // PC版で黒い背景を削除する
