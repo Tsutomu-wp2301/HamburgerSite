@@ -388,36 +388,20 @@ body {
   .c-color-board--black {
     position: absolute;
     top: 0px;
-    opacity: 0;
-    transition: 500ms;
+    display: none;
     width: 100vw;
-    height: 2716px;
+    height: 100vh;
     background: rgba(0, 0, 0, 0.501961);
   }
 }
 @media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .c-color-board--black {
     position: absolute;
-    opacity: 0;
-    top: 0px;
-    transition: 500ms;
+    display: none;
     width: 100vw;
-    height: 1826px;
+    height: 100vh;
+    top: 0px;
     background: rgba(0, 0, 0, 0.501961);
-  }
-}
-@media screen and (max-width: 700px) {
-  .c-color-board--black.is-active {
-    opacity: 1;
-    z-index: 50;
-    position: fixed;
-  }
-}
-@media screen and (min-width:700.5px) and (max-width:1199.5px) {
-  .c-color-board--black.is-active {
-    opacity: 1;
-    z-index: 50;
-    position: fixed;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -503,7 +487,7 @@ body {
 @media screen and (max-width: 700px) {
   .c-color-board {
     width: 100vw;
-    min-height: 415px;
+    height: 415px;
     background-color: rgba(0, 0, 0, 0.6);
     padding-bottom: 30px;
   }
