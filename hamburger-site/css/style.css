@@ -30,7 +30,7 @@ body {
 }
 @media screen and (max-width: 700px) {
   .l-aside {
-    position: absolute;
+    position: fixed;
     left: 100%;
     top: 0%;
     transition: 0.3s;
@@ -39,7 +39,7 @@ body {
 }
 @media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .l-aside {
-    position: absolute;
+    position: fixed;
     left: 100%;
     top: 0%;
     transition: 0.3s;
@@ -53,6 +53,7 @@ body {
 }
 @media screen and (max-width: 700px) {
   .l-aside.is-active {
+    position: absolute;
     left: calc(100vw - 328px);
     transition-delay: 0.5s;
     z-index: 200;
@@ -61,6 +62,7 @@ body {
 }
 @media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .l-aside.is-active {
+    position: absolute;
     left: calc(100vw - 367px);
     transition-delay: 0.5s;
     z-index: 200;
