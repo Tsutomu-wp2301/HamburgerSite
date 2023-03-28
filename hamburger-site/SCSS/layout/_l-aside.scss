@@ -4,7 +4,7 @@
 // スマホとタブレットでサイドメニューを左側に隠す
 @include m.mq(sp) {
   .l-aside {
-    position: absolute;
+    position: fixed;
     left: 100%;
     top: 0%;
     transition: 0.3s;
@@ -13,7 +13,7 @@
 }
 @include m.mq(tab) {
   .l-aside {
-    position: absolute;
+    position: fixed;
     left: 100%;
     top: 0%;
     transition: 0.3s;
@@ -31,6 +31,7 @@
 // is-activeでサイドメニューを表示させる
 @include m.mq(sp) {
   .l-aside.is-active {
+    position: absolute;
     left: calc(100vw - 328px);
     transition-delay: 0.5s;
     z-index: 200;
@@ -39,6 +40,7 @@
 }
 @include m.mq(tab) {
   .l-aside.is-active {
+    position: absolute;
     left: calc(100vw - 367px);
     transition-delay: 0.5s;
     z-index: 200;
