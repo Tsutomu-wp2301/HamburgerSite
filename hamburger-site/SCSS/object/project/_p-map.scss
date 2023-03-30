@@ -10,14 +10,18 @@
     background-image: url(../image/map.png);
     background-size: cover;
     background-position: center;
+    opacity: 0.8;
     p {
-      color: white;
+      color: rgba(255, 255, 255, 1);
       font-size: 14px;
       font-family: "M+ 1m";
       font-weight: bold;
       padding-left: 10%;
       padding-right: 10%;
       line-height: 2.2;
+    }
+    h2 {
+      color: rgba(255, 255, 255, 1);
     }
   }
 }
@@ -29,14 +33,18 @@
     background-image: url(../image/map.png);
     background-size: cover;
     background-position: center;
+    opacity: 0.8;
     p {
-      color: white;
+      color: rgba(255, 255, 255, 1);
       font-size: 16px;
       font-family: "M+ 1m";
       font-weight: bold;
       padding-left: 10%;
       padding-right: 10%;
       line-height: 2.2;
+    }
+    h2 {
+      color: rgba(255, 255, 255, 1);
     }
   }
 }
@@ -48,14 +56,18 @@
     background-image: url(../image/map.png);
     background-size: cover;
     background-position: center;
+    opacity: 0.8;
     p {
-      color: white;
+      color: rgba(255, 255, 255, 1);
       font-size: 16px;
       font-family: "M+ 1m";
       font-weight: bold;
       padding-left: 10%;
       padding-right: 140px;
       line-height: 2.2;
+    }
+    h2 {
+      color: rgba(255, 255, 255, 1);
     }
   }
 }
