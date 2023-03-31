@@ -1,0 +1,22 @@
+@use '../../foundation/breakpoint' as m;
+
+@include m.mq(sp) {
+  .c-archive__image--cheeseBurger {
+    background-image: url(../image/hamburger.png);
+    height: 230px;
+    width: 100vw;
+  }
+
+  .c-archive__image--w-cheeseBurger {
+    background-image: url(../image/hamburger.png);
+    height: 230px;
+    width: 100vw;
+  }
+
+  .c-archive__image--s-cheeseBurger {
+    background-image: url(../image/hamburger.png);
+    height: 230px;
+    width: 100vw;
+  }
+
+}

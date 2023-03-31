@@ -1,0 +1,11 @@
+@use '../../foundation/breakpoint' as m;
+
+@include m.mq(sp) {
+  .c-bg--black--archive {
+    height: 285px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+  }
+}

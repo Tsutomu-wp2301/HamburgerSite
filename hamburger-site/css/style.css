@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-size: 12px;
   list-style: none;
@@ -540,6 +541,40 @@ body {
     background-color: #000;
     min-height: 650px;
     width: 81.15vw;
+  }
+}
+@media screen and (max-width: 700px) {
+  .c-bg--black--archive {
+    height: 285px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .c-archive--titlle {
+    font-family: "M+ 1m";
+    font-size: 28px;
+    color: #3c2a10;
+    margin: 35px 0px 30px 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .c-archive__image--cheeseBurger {
+    background-image: url(../image/hamburger.png);
+    height: 230px;
+    width: 100vw;
+  }
+  .c-archive__image--w-cheeseBurger {
+    background-image: url(../image/hamburger.png);
+    height: 230px;
+    width: 100vw;
+  }
+  .c-archive__image--s-cheeseBurger {
+    background-image: url(../image/hamburger.png);
+    height: 230px;
+    width: 100vw;
   }
 }
 @media screen and (max-width: 700px) {
@@ -1141,6 +1176,103 @@ body {
   }
   .p-header .c-search {
     margin-top: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .p-archive--image {
+    width: 100vw;
+    height: 285px;
+    background-image: url(../image/page-title_arcive@2x.jpg);
+    background-position: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-left: 25px;
+  }
+  h1::after {
+    content: "チーズバーガー";
+    font-size: 16px;
+    font-family: "M+ 1m";
+    color: white;
+    margin-top: 15px;
+  }
+}
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
+  .p-archive-image {
+    background-image: url(../image/page-title_arcive@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 3000px;
+    width: 100vw;
+    height: 285px;
+    display: flex;
+    align-items: center;
+    padding-left: 85px;
+  }
+  h1 {
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-archive-image {
+    background-image: url(../image/page-title_arcive@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    max-width: 3000px;
+    width: 81.15vw;
+    height: 530px;
+    display: flex;
+    align-items: center;
+    padding-left: 85px;
+  }
+  h1 {
+    display: inline-block;
+    font-size: 35px;
+    color: white;
+  }
+}
+@media screen and (max-width: 700px) {
+  .p-archive--content--wrapper {
+    padding: 20px;
+  }
+  .p-archive--content--wrapper > p {
+    font-family: "M+ 1m";
+    font-size: 16px;
+    color: #3C2A10;
+  }
+}
+@media screen and (max-width: 700px) {
+  .p-archive__item {
+    width: 100vw;
+    background-color: #3C2B1C;
+  }
+  h3 {
+    color: white;
+    font-family: "M+ 1m";
+    font-weight: bold;
+    font-size: 20px;
+  }
+  h4 {
+    color: white;
+    font-family: "M+ 1m";
+    font-weight: bold;
+    font-size: 16px;
+  }
+  p {
+    color: white;
+    font-family: "M+ 1m";
+    font-weight: normal;
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=style.css.map */
