@@ -1,0 +1,28 @@
+@use '../../foundation/breakpoint' as m;
+
+@include m.mq(sp) {
+  .p-archive__item {
+    width: 100vw;
+    background-color: #3C2B1C;
+  }
+  h3 {
+    color: white;
+    font-family: 'M+ 1m';
+    font-weight: bold;
+    font-size: 20px;
+  }
+  h4 {
+    color: white;
+    font-family: 'M+ 1m';
+    font-weight: bold;
+    font-size: 16px;
+  }
+  p {
+    color: white;
+    font-family: 'M+ 1m';
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+
+}

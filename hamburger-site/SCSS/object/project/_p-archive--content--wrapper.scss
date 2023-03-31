@@ -1,0 +1,14 @@
+@use '../../foundation/breakpoint' as m;
+
+
+@include m.mq(sp) {
+  .p-archive--content--wrapper {
+    padding: 20px;
+
+  & > p {
+      font-family: 'M+ 1m';
+      font-size: 16px;
+      color: #3C2A10;
+    }
+  } 
+}
