@@ -1,0 +1,12 @@
+@use '../../foundation/breakpoint' as m;
+
+@include m.mq(sp) {
+  .p-archive__item--wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    position: relative;
+  }
+}

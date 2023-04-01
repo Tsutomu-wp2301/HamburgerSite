@@ -557,24 +557,104 @@ body {
     font-family: "M+ 1m";
     font-size: 28px;
     color: #3c2a10;
-    margin: 35px 0px 30px 20px;
+    margin: 35px 0px 30px 0px;
   }
 }
 @media screen and (max-width: 700px) {
   .c-archive__image--cheeseBurger {
     background-image: url(../image/hamburger.png);
     height: 230px;
-    width: 100vw;
+    width: 100%;
+    display: block;
+    background-size: cover;
   }
   .c-archive__image--w-cheeseBurger {
     background-image: url(../image/hamburger.png);
     height: 230px;
-    width: 100vw;
+    width: 100%;
+    display: block;
+    background-size: cover;
   }
   .c-archive__image--s-cheeseBurger {
     background-image: url(../image/hamburger.png);
     height: 230px;
-    width: 100vw;
+    width: 100%;
+    display: block;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 700px) {
+  .c-button--archive {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "M+ 1m";
+    color: #707070;
+    background-color: white;
+    width: 163px;
+    height: 43px;
+    border-radius: 50px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .c-back {
+    height: 12px;
+    width: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #707070;
+    border-style: solid;
+    border-top: 1px;
+    border-right: 1px;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 20px;
+  }
+  .c-back::after {
+    content: "";
+    height: 12px;
+    width: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #707070;
+    border-style: solid;
+    border-top: 1px;
+    border-right: 1px;
+    position: absolute;
+    left: 4px;
+    top: -6px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .c-next {
+    display: none;
+    height: 12px;
+    width: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #707070;
+    border-style: solid;
+    border-top: 1px;
+    border-right: 1px;
+    transform: rotate(-135deg);
+    position: absolute;
+    right: 20px;
+  }
+  .c-next::after {
+    content: "";
+    height: 12px;
+    width: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #707070;
+    border-style: solid;
+    border-top: 1px;
+    border-right: 1px;
+    position: absolute;
+    left: 4px;
+    top: -6.5px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -1244,6 +1324,7 @@ body {
 @media screen and (max-width: 700px) {
   .p-archive--content--wrapper {
     padding: 20px;
+    width: 100vw;
   }
   .p-archive--content--wrapper > p {
     font-family: "M+ 1m";
@@ -1253,26 +1334,77 @@ body {
 }
 @media screen and (max-width: 700px) {
   .p-archive__item {
-    width: 100vw;
     background-color: #3C2B1C;
   }
-  h3 {
+  .p-archive__item h3 {
     color: white;
     font-family: "M+ 1m";
     font-weight: bold;
     font-size: 20px;
+    padding: 30px 0px 25px 20px;
   }
-  h4 {
+  .p-archive__item h4 {
     color: white;
     font-family: "M+ 1m";
     font-weight: bold;
     font-size: 16px;
+    padding: 0px 0px 10px 20px;
   }
-  p {
+  .p-archive__item p {
     color: white;
     font-family: "M+ 1m";
     font-weight: normal;
     font-size: 16px;
+    padding: 0px 20px 0px 20px;
+  }
+  .p-archive__item a {
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  .p-archive__item--wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    position: relative;
+  }
+}
+@media screen and (max-width: 700px) {
+  .p-stretched--link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: auto;
+    content: "";
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+@media screen and (max-width: 700px) {
+  .p-navigation--sp {
+    width: 100vw;
+    padding: 10px 20px 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .p-navigation--sp p {
+    font-family: "M+ 1m";
+    font-size: 16px;
+    font-weight: normal;
+    color: #707070;
+  }
+  .p-navigation--sp p:nth-of-type(1) {
+    position: relative;
+    left: 25px;
+  }
+  .p-navigation--sp p:nth-of-type(2) {
+    position: relative;
+    right: 25px;
   }
 }
 /*# sourceMappingURL=style.css.map */

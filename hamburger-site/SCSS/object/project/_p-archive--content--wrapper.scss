@@ -4,7 +4,8 @@
 @include m.mq(sp) {
   .p-archive--content--wrapper {
     padding: 20px;
-
+    width: 100vw;
+    
   & > p {
       font-family: 'M+ 1m';
       font-size: 16px;
