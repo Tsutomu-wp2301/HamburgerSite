@@ -4,19 +4,25 @@
   .c-archive__image--cheeseBurger {
     background-image: url(../image/hamburger.png);
     height: 230px;
-    width: 100vw;
+    width: 100%;
+    display: block;
+    background-size: cover;
   }
 
   .c-archive__image--w-cheeseBurger {
     background-image: url(../image/hamburger.png);
     height: 230px;
-    width: 100vw;
+    width: 100%;
+    display: block;
+    background-size: cover;
   }
 
   .c-archive__image--s-cheeseBurger {
     background-image: url(../image/hamburger.png);
     height: 230px;
-    width: 100vw;
+    width: 100%;
+    display: block;
+    background-size: cover;
   }
 
 }
