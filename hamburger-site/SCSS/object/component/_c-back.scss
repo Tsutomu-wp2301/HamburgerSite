@@ -8,8 +8,8 @@
     background-color: rgba(0, 0, 0, 0);
     border-color: #707070;
     border-style: solid;
-    border-top: 1px;
-    border-right: 1px;
+    border-top: 0.5px;
+    border-right: 0.5px;
     transform: rotate(45deg);
     position: absolute;
     left: 20px;
@@ -20,8 +20,35 @@
       background-color: rgba(0, 0, 0, 0);
       border-color: #707070;
       border-style: solid;
-      border-top: 1px;
-      border-right: 1px;
+      border-top: 0.5px;
+      border-right: 0.5px;
+      position: absolute;
+      left: 4px;
+      top: -6px; 
+    }
+  }
+}
+
+@include m.mq(tab) {
+  li.c-back {
+    height: 12px;
+    width: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #707070;
+    border-style: solid;
+    border-top: 0.5px;
+    border-right: 0.5px;
+    transform: rotate(45deg);
+    position: relative;
+    &::after {
+      content: "";
+      height: 12px;
+      width: 12px;
+      background-color: rgba(0, 0, 0, 0);
+      border-color: #707070;
+      border-style: solid;
+      border-top: 0.5px;
+      border-right: 0.5px;
       position: absolute;
       left: 4px;
       top: -6px; 
