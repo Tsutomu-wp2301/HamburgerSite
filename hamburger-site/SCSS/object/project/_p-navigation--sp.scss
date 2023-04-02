@@ -1,6 +1,6 @@
 @use '../../foundation/breakpoint' as m;
 
-
+// スマホ版のナビゲーションレイアウト
 @include m.mq(sp) {
   .p-navigation--sp {
     width: 100vw;
@@ -8,8 +8,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-
     p {
       font-family: 'M+ 1m';
       font-size: 16px;
@@ -25,5 +23,10 @@
         right: 25px;
       }
     }
+  }
+
+  // タブレット以上のナビゲーションを非表示
+  .p-navigation {
+    display: none;
   }
 }
