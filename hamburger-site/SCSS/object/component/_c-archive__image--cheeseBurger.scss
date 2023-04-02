@@ -25,7 +25,26 @@
     background-size: cover;
   }
 }
+
 @include m.mq(tab) {
+  .c-archive__image--cheeseBurger {
+    background-image: url(../image/hamburger.png);
+    width: 50%;
+    background-size: cover;
+  }
+  .c-archive__image--w-cheeseBurger {
+    background-image: url(../image/hamburger.png);
+    width: 50%;
+    background-size: cover;
+  }
+  .c-archive__image--s-cheeseBurger {
+    background-image: url(../image/hamburger.png);
+    width: 50%;
+    background-size: cover;
+  }
+}
+
+@include m.mq(pc) {
   .c-archive__image--cheeseBurger {
     background-image: url(../image/hamburger.png);
     width: 50%;

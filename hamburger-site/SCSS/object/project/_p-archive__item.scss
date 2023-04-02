@@ -60,3 +60,34 @@
     }
   }
 }
+
+@include m.mq(pc) {
+  .p-archive__item {
+    background-color: #3C2B1C;
+    width: 50%;
+    h3 {
+      color: white;
+      font-family: 'M+ 1m';
+      font-weight: bold;
+      font-size: 36px;
+      padding: 40px 0px 25px 40px;
+    }
+    h4 {
+      color: white;
+      font-family: 'M+ 1m';
+      font-weight: bold;
+      font-size: 24px;
+      padding: 5px 0px 10px 40px;
+    }
+    p {
+      color: white;
+      font-family: 'M+ 1m';
+      font-weight: normal;
+      font-size: 16px;
+      padding: 0px 50px 15px 40px;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+}

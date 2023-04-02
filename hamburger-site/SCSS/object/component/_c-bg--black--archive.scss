@@ -19,3 +19,14 @@
     align-items: center;
   }
 }
+
+@include m.mq(pc) {
+  .c-bg--black--archive {
+    height: 239px;
+    width: 81.15vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    padding-left: 85px;
+  }
+}
