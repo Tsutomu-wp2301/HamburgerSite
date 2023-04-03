@@ -137,7 +137,7 @@ body {
   .c-search-area {
     width: 216px;
     height: 46px;
-    background-color: white;
+    background-image: white;
     border: 1px solid #707070;
     font-size: 25px;
     border-radius: 10px;
@@ -176,7 +176,7 @@ body {
   button.c-button {
     width: 90px;
     height: 46px;
-    background-color: #ccc5c5;
+    background-image: linear-gradient(to right, #F2EDE9, #DED8D3);
     border-radius: 10px;
     border: 1px #707070 solid;
     font-size: 15px;
@@ -190,7 +190,7 @@ body {
   button.c-button {
     width: 136px;
     height: 46px;
-    background-color: #ccc5c5;
+    background-image: linear-gradient(to right, #F2EDE9, #DED8D3);
     border-radius: 10px;
     border: 1px #707070 solid;
     font-size: 15px;
@@ -204,7 +204,7 @@ body {
   button.c-button {
     width: 136px;
     height: 46px;
-    background-color: #ccc5c5;
+    background-image: linear-gradient(to right, #F2EDE9, #DED8D3);
     border-radius: 10px;
     border: 1px #707070 solid;
     font-size: 15px;
