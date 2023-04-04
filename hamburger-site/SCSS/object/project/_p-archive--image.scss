@@ -9,21 +9,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  h1 {
-    display: flex;
-    flex-direction: column;
-    font-size: 35px;
-    color: white;
-    font-family: 'Roboto';
-    font-weight: bold;
-    margin-left: 25px;
-    &::after {
-      content: "チーズバーガー";
-      font-size: 16px;
-      font-family: 'M+ 1m';
+    h1 {
+      display: flex;
+      flex-direction: column;
+      font-size: 35px;
       color: white;
-      margin-top: 15px;
+      font-family: 'Roboto';
+      font-weight: bold;
+      margin-left: 25px;
+      &::after {
+        content: "チーズバーガー";
+        font-size: 16px;
+        font-family: 'M+ 1m';
+        color: white;
+        margin-top: 15px;
+      }
     }
   }
 }
@@ -37,22 +37,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-  h1 {
-    display: flex;
-    align-items: center;
-    font-size: 60px;
-    color: white;
-    font-family: 'Roboto';
-    font-weight: bold;
-    margin-left: 25px;
-    &::after {
-      content: "チーズバーガー";
-      font-size: 16px;
-      font-family: 'M+ 1m';
+    h1 {
+      display: flex;
+      align-items: center;
+      font-size: 60px;
       color: white;
-      margin-top: 15px;
-      margin-left: 15px;
+      font-family: 'Roboto';
+      font-weight: bold;
+      margin-left: 25px;
+      &::after {
+        content: "チーズバーガー";
+        font-size: 16px;
+        font-family: 'M+ 1m';
+        color: white;
+        margin-top: 15px;
+        margin-left: 15px;
+      }
     }
   }
 }
@@ -66,22 +66,22 @@
     height: 239px;
     display: flex;
     align-items: center;
-  }
-  h1 {
-    display: flex;
-    align-items: center;
-    font-size: 60px;
-    color: white;
-    font-family: 'Roboto';
-    font-weight: bold;
-    margin-left: 25px;
-    &::after {
-      content: "チーズバーガー";
-      font-size: 16px;
-      font-family: 'M+ 1m';
+    h1 {
+      display: flex;
+      align-items: center;
+      font-size: 60px;
       color: white;
-      margin-top: 15px;
-      margin-left: 20px;
+      font-family: 'Roboto';
+      font-weight: bold;
+      margin-left: 25px;
+      &::after {
+        content: "チーズバーガー";
+        font-size: 16px;
+        font-family: 'M+ 1m';
+        color: white;
+        margin-top: 15px;
+        margin-left: 20px;
+      }
     }
   }
 }
