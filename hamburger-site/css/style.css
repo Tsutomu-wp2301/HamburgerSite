@@ -137,7 +137,7 @@ body {
   .c-search-area {
     width: 216px;
     height: 46px;
-    background-image: white;
+    background-color: white;
     border: 1px solid #707070;
     font-size: 25px;
     border-radius: 10px;
@@ -1882,19 +1882,20 @@ body {
   }
 }
 @media screen and (max-width: 700px) {
-  .p-main-image {
-    width: 100vw;
+  .p-single-image {
     background-image: url(../image/ham-burger-with-vegetables.png);
     background-position: center;
     background-size: cover;
-    height: 285px;
+    max-width: 3000px;
+    width: 100vw;
+    height: 225px;
     display: flex;
     align-items: center;
-    padding-left: 25px;
+    padding-left: 30px;
   }
-  .p-main-image h1 {
+  h1 {
     display: inline-block;
-    font-size: 35px;
+    font-size: 36px;
     color: white;
   }
 }
@@ -1910,7 +1911,7 @@ body {
     align-items: center;
     padding-left: 85px;
   }
-  .p-main-image h1 {
+  h1 {
     display: inline-block;
     font-size: 35px;
     color: white;
@@ -1932,6 +1933,53 @@ body {
     display: inline-block;
     font-size: 60px;
     color: white;
+  }
+}
+@media screen and (max-width: 700px) {
+  .p-single--h2 {
+    font-size: 28px;
+    font-family: "M+ 1m";
+    color: #3C2A10;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .p-single--layout {
+    padding: 20px 25px 20px 25px;
+    font-family: "M+ 1m";
+    font-weight: normal;
+    color: #3C2A10;
+  }
+  .p-single--layout p {
+    font-size: 16px;
+    font-family: "M+ 1m";
+    font-weight: normal;
+    color: #3C2A10;
+  }
+  .p-single--layout h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .p-single--layout h4, .p-single--layout h5, .p-single--layout h6 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .p-single--layout blockquote {
+    background-color: #F5F5F5;
+    padding: 20px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .p-product--image--long {
+    background-image: url(../image/cooked-foods-750073.png);
+    background-size: cover;
+    width: 100%;
+    height: 124px;
+    margin-top: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
