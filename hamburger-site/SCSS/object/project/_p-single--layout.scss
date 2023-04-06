@@ -1,0 +1,33 @@
+@use '../../foundation/breakpoint' as m;
+
+
+@include m.mq(sp) {
+
+  .p-single--layout {
+    padding: 20px 25px 20px 25px;
+    font-family: 'M+ 1m';
+    font-weight: normal;
+    color: #3C2A10;
+    p {
+      font-size: 16px;
+      font-family: 'M+ 1m';
+      font-weight: normal;
+      color: #3C2A10;
+    }
+    h3 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    h4,h5,h6{
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    blockquote {
+      background-color:#F5F5F5 ;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  }
+}
