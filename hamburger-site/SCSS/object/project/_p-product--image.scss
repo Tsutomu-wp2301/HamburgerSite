@@ -1,0 +1,26 @@
+@use '../../foundation/breakpoint' as m;
+
+
+@include m.mq(sp) {
+  .p-product--image {
+    background-image: url(../../../image/cooked-foods.png);
+    width: 40%;
+    height: 89px;
+    margin-top: 30px;
+    background-size: auto 100%;
+    background-position: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    &--center {
+      background-image: url(../../../image/cooked-foods.png);
+      width: 75%;
+      height: 166px;
+      background-size: auto 100%;
+      background-position: center;
+      white-space: nowrap;
+      overflow-x: auto;
+      margin-top: 30px;
+    }
+  }
+
+}
