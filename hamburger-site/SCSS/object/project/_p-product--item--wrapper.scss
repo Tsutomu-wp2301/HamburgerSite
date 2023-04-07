@@ -1,0 +1,11 @@
+@use '../../foundation/breakpoint' as m;
+
+@include m.mq(sp) {
+  .p-product--item--wrapper {
+    width: 100%;
+    margin-left: 0px;
+    li {
+      list-style-type: none;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@use '../../foundation/breakpoint' as m;
+
+
+@include m.mq(sp) {
+  .p-single--layout {
+    .indent {
+      margin-left: 20px;
+    }
+  }
+}

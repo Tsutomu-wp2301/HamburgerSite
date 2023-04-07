@@ -1,0 +1,12 @@
+@use '../../foundation/breakpoint' as m;
+
+
+
+@include m.mq(sp) {
+  .p-flex--single {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
