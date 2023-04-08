@@ -211,6 +211,18 @@ body {
     font-weight: bold;
     margin-left: 5px;
   }
+  button.c-button--single {
+    width: 429px;
+    height: 104px;
+    background-image: linear-gradient(to right, #F2EDE9, #DED8D3);
+    border-radius: 10px;
+    border: 1px #707070 solid;
+    font-size: 16px;
+    color: #707070;
+    font-family: "M+ 1m";
+    font-weight: bold;
+    margin-top: 50px;
+  }
 }
 @media screen and (min-width: 1200px) {
   button.c-button {
@@ -219,11 +231,23 @@ body {
     background-image: linear-gradient(to right, #F2EDE9, #DED8D3);
     border-radius: 10px;
     border: 1px #707070 solid;
-    font-size: 15px;
+    font-size: 16px;
     color: #707070;
     font-family: "M+ 1m";
     font-weight: bold;
     margin-left: 5px;
+  }
+  button.c-button--single {
+    width: 429px;
+    height: 104px;
+    background-image: linear-gradient(to right, #F2EDE9, #DED8D3);
+    border-radius: 10px;
+    border: 1px #707070 solid;
+    font-size: 16px;
+    color: #707070;
+    font-family: "M+ 1m";
+    font-weight: bold;
+    margin-top: 50px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -1898,7 +1922,6 @@ body {
     background-image: url(../image/ham-burger-with-vegetables.png);
     background-position: center;
     background-size: cover;
-    max-width: 3000px;
     width: 100vw;
     height: 225px;
     display: flex;
@@ -1912,20 +1935,19 @@ body {
   }
 }
 @media screen and (min-width:700.5px) and (max-width:1199.5px) {
-  .p-main-image {
+  .p-single-image {
     background-image: url(../image/ham-burger-with-vegetables.png);
     background-position: center;
     background-size: cover;
-    max-width: 3000px;
     width: 100vw;
-    height: 285px;
+    height: 505px;
     display: flex;
     align-items: center;
-    padding-left: 85px;
+    padding-left: 60px;
   }
   h1 {
     display: inline-block;
-    font-size: 35px;
+    font-size: 60px;
     color: white;
   }
 }
@@ -1934,7 +1956,6 @@ body {
     background-image: url(../image/ham-burger-with-vegetables.png);
     background-position: center;
     background-size: cover;
-    max-width: 3000px;
     width: 81.15vw;
     height: 500px;
     display: flex;
@@ -1948,15 +1969,6 @@ body {
   }
 }
 @media screen and (max-width: 700px) {
-  .p-single--h2 {
-    font-size: 28px;
-    font-family: "M+ 1m";
-    color: #3C2A10;
-    margin-top: 15px;
-    margin-bottom: 25px;
-  }
-}
-@media screen and (max-width: 700px) {
   .p-single--layout {
     padding: 20px 25px 20px 25px;
     font-family: "M+ 1m";
@@ -1966,6 +1978,11 @@ body {
   .p-single--layout p {
     font-size: 16px;
     color: #3C2A10;
+    margin-top: 30px;
+  }
+  .p-single--layout h2 {
+    font-size: 28px;
+    font-weight: bold;
     margin-top: 30px;
   }
   .p-single--layout h3 {
@@ -2006,7 +2023,7 @@ body {
 }
 @media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .p-single--layout {
-    padding: 20px 25px 20px 25px;
+    padding: 20px 60px 20px 60px;
     font-family: "M+ 1m";
     font-weight: normal;
     color: #3C2A10;
@@ -2014,27 +2031,33 @@ body {
   .p-single--layout p {
     font-size: 16px;
     color: #3C2A10;
-    margin-top: 30px;
+    margin-top: 50px;
+  }
+  .p-single--layout h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
   }
   .p-single--layout h3 {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 50px;
   }
   .p-single--layout h4, .p-single--layout h5, .p-single--layout h6 {
     font-size: 20px;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 50px;
   }
   .p-single--layout blockquote {
     background-color: #F5F5F5;
-    padding: 20px;
-    margin-top: 30px;
+    padding: 40px;
+    margin-top: 50px;
     font-size: 16px;
   }
   .p-single--layout blockquote p {
     display: flex;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
   }
   .p-single--layout li {
     font-size: 16px;
@@ -2047,8 +2070,12 @@ body {
   .p-single--layout ul:nth-of-type(4) {
     margin-top: 50px;
   }
+  .p-single--layout .p-product--item--wrapper {
+    margin-top: 50px;
+  }
   .p-single--layout .bold {
     font-weight: bold;
+    margin-bottom: 70px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -2061,27 +2088,33 @@ body {
   .p-single--layout p {
     font-size: 16px;
     color: #3C2A10;
-    margin-top: 30px;
+    margin-top: 50px;
+  }
+  .p-single--layout h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
   }
   .p-single--layout h3 {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 50px;
   }
   .p-single--layout h4, .p-single--layout h5, .p-single--layout h6 {
     font-size: 20px;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 50px;
   }
   .p-single--layout blockquote {
     background-color: #F5F5F5;
-    padding: 20px;
-    margin-top: 30px;
+    padding: 40px;
+    margin-top: 50px;
     font-size: 16px;
   }
   .p-single--layout blockquote p {
     display: flex;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
   }
   .p-single--layout li {
     font-size: 16px;
@@ -2092,6 +2125,9 @@ body {
     margin-top: 20px;
   }
   .p-single--layout ul:nth-of-type(4) {
+    margin-top: 50px;
+  }
+  .p-single--layout .p-product--item--wrapper {
     margin-top: 50px;
   }
   .p-single--layout .bold {
@@ -2107,7 +2143,49 @@ body {
     margin-top: 30px;
   }
 }
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
+  .p-product--image--long {
+    background-image: url(../image/cooked-foods-750073.png);
+    background-size: cover;
+    width: 100%;
+    height: 264px;
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-product--image--long {
+    background-image: url(../image/cooked-foods-750073.png);
+    background-size: cover;
+    width: 100%;
+    height: 124px;
+    margin-top: 50px;
+  }
+}
 @media screen and (max-width: 700px) {
+  .p-flex--single-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    width: 100%;
+    height: auto;
+  }
+  .p-flex--single-content p {
+    width: 56%;
+  }
+}
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
+  .p-flex--single-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    width: 100%;
+    height: auto;
+  }
+  .p-flex--single-content p {
+    width: 56%;
+  }
+}
+@media screen and (min-width: 1200px) {
   .p-flex--single-content {
     display: flex;
     justify-content: space-between;
@@ -2141,7 +2219,67 @@ body {
     margin-top: 30px;
   }
 }
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
+  .p-product--image {
+    background-image: url(../../../image/cooked-foods.png);
+    width: 40%;
+    height: 189px;
+    margin-top: 50px;
+    background-size: auto 100%;
+    background-position: center;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  .p-product--image--center {
+    background-image: url(../../../image/cooked-foods.png);
+    width: 81%;
+    height: 358px;
+    background-size: auto 100%;
+    background-position: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-product--image {
+    background-image: url(../../../image/cooked-foods.png);
+    width: 40%;
+    height: 89px;
+    margin-top: 30px;
+    background-size: auto 100%;
+    background-position: center;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  .p-product--image--center {
+    background-image: url(../../../image/cooked-foods.png);
+    width: 81%;
+    height: 166px;
+    background-size: auto 100%;
+    background-position: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    margin-top: 30px;
+  }
+}
 @media screen and (max-width: 700px) {
+  .p-flex--single {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
+  .p-flex--single {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1200px) {
   .p-flex--single {
     display: flex;
     flex-direction: column;
@@ -2160,8 +2298,27 @@ body {
     overflow-x: auto;
     margin-top: 20px;
   }
-  .p-product--item:nth-of-type(1) {
-    margin-top: 30px;
+}
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
+  .p-product--item {
+    background-image: url(../image/cooked-foods.png);
+    width: 100%;
+    min-height: 205px;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-product--item {
+    background-image: url(../image/cooked-foods.png);
+    width: 100%;
+    height: 205px;
+    background-size: auto 100%;
+    background-position: center;
+    white-space: nowrap;
+    overflow-x: auto;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -2176,12 +2333,63 @@ body {
     margin-top: 0px;
   }
 }
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
+  .p-product--item--wrapper {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .p-product--item--wrapper li {
+    list-style-type: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-product--item--wrapper {
+    width: 100%;
+    margin-left: 0px;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .p-product--item--wrapper li {
+    list-style-type: none;
+  }
+}
 @media screen and (max-width: 700px) {
   .p-code--area {
     background-color: #F5F5F5;
     height: 237px;
     width: 100%;
     margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: "M+ 1m";
+  }
+}
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
+  .p-code--area {
+    background-color: #F5F5F5;
+    height: 237px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: "M+ 1m";
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-code--area {
+    background-color: #F5F5F5;
+    height: 237px;
+    width: 100%;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     padding-top: 20px;
@@ -2201,7 +2409,7 @@ body {
 @media screen and (min-width:700.5px) and (max-width:1199.5px) {
   .p-flex--table {
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
   }
   .p-single--layout .p-flex--table ul {
@@ -2211,7 +2419,7 @@ body {
 @media screen and (min-width: 1200px) {
   .p-flex--table {
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
   }
   .p-single--layout .p-flex--table ul {
@@ -2227,7 +2435,7 @@ body {
     width: 200px;
     height: 77px;
     display: flex;
-    justify-content: center;
+    padding-left: 20%;
     align-items: center;
     font-size: 16px;
     font-family: "M+ 1m";
@@ -2262,7 +2470,7 @@ body {
     width: 136px;
     height: 77px;
     display: flex;
-    justify-content: center;
+    padding-left: 20%;
     align-items: center;
     font-size: 16px;
     font-family: "M+ 1m";
@@ -2278,12 +2486,13 @@ body {
   .p-table--left {
     display: flex;
     flex-direction: column;
+    width: 30%;
   }
   .p-table--left li {
-    width: 30%;
     height: 77px;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    padding-left: 20%;
     align-items: center;
     font-size: 16px;
     font-family: "M+ 1m";
@@ -2304,7 +2513,7 @@ body {
     width: 30%;
     height: 77px;
     display: flex;
-    justify-content: center;
+    padding-left: 20%;
     align-items: center;
     font-size: 16px;
     font-family: "M+ 1m";
@@ -2325,7 +2534,7 @@ body {
     width: 307px;
     height: 77px;
     display: flex;
-    justify-content: center;
+    padding-left: 20%;
     align-items: center;
     font-size: 16px;
     font-family: "M+ 1m";
@@ -2338,50 +2547,66 @@ body {
   }
 }
 @media screen and (min-width:700.5px) and (max-width:1199.5px) {
-  .p-table--left {
+  .p-table--right {
     display: flex;
     flex-direction: column;
-  }
-  .p-table--left li {
     width: 70%;
+  }
+  .p-table--right li {
+    width: 100%;
     height: 77px;
     display: flex;
-    justify-content: center;
+    padding-left: 10%;
     align-items: center;
     font-size: 16px;
     font-family: "M+ 1m";
     color: #3C2A10;
     border: #707070 solid 1px;
     border-bottom: 0px;
+    border-left: 0px;
   }
-  .p-table--left li:nth-of-type(5) {
+  .p-table--right li:nth-of-type(5) {
     border: #707070 solid 1px;
+    border-left: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .p-table--left {
+  .p-table--right {
     display: flex;
     flex-direction: column;
-  }
-  .p-table--left li {
     width: 70%;
+  }
+  .p-table--right li {
+    width: 100%;
     height: 77px;
     display: flex;
-    justify-content: center;
+    padding-left: 20%;
     align-items: center;
     font-size: 16px;
     font-family: "M+ 1m";
     color: #3C2A10;
     border: #707070 solid 1px;
     border-bottom: 0px;
+    border-left: 0px;
   }
-  .p-table--left li:nth-of-type(5) {
+  .p-table--right li:nth-of-type(5) {
     border: #707070 solid 1px;
+    border-left: 0px;
   }
 }
 @media screen and (max-width: 700px) {
   .p-single-list--wrapper {
     margin-top: 30px;
+  }
+}
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
+  .p-single-list--wrapper {
+    margin-top: 130px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .p-single-list--wrapper {
+    margin-top: 50px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -2400,6 +2625,16 @@ body {
   }
 }
 @media screen and (max-width: 700px) {
+  .p-single--layout .indent {
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width:700.5px) and (max-width:1199.5px) {
+  .p-single--layout .indent {
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .p-single--layout .indent {
     margin-left: 20px;
   }

@@ -44,6 +44,19 @@
       font-family: "M+ 1m";
       font-weight: bold;
       margin-left: 5px;
+            // シングルページのボタン
+      &--single {
+        width: 429px;
+        height: 104px;
+        background-image:linear-gradient(to right, #F2EDE9, #DED8D3);
+        border-radius: 10px;
+        border: 1px #707070 solid;
+        font-size: 16px;
+        color: #707070;
+        font-family: "M+ 1m";
+        font-weight: bold;
+        margin-top: 50px;
+      }
     }
   }
 
@@ -55,10 +68,23 @@
     background-image:linear-gradient(to right, #F2EDE9, #DED8D3);
     border-radius: 10px;
     border: 1px #707070 solid;
-    font-size: 15px;
+    font-size: 16px;
     color: #707070;
     font-family: "M+ 1m";
     font-weight: bold;
     margin-left: 5px;
+    // シングルページのボタン
+    &--single {
+      width: 429px;
+      height: 104px;
+      background-image:linear-gradient(to right, #F2EDE9, #DED8D3);
+      border-radius: 10px;
+      border: 1px #707070 solid;
+      font-size: 16px;
+      color: #707070;
+      font-family: "M+ 1m";
+      font-weight: bold;
+      margin-top: 50px;
+    }
   }
 }
