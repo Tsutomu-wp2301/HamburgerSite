@@ -19,7 +19,7 @@
 @include m.mq(tab) {
   .p-flex--table {
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
   }
   .p-single--layout {
@@ -34,7 +34,7 @@
 @include m.mq(pc) {
   .p-flex--table {
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
   }
   .p-single--layout {

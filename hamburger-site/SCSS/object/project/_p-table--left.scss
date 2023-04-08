@@ -8,7 +8,7 @@
       width: 136px;
       height: 77px;
       display: flex;
-      justify-content: center;
+      padding-left: 20%;
       align-items: center;
       font-size: 16px;
       font-family: 'M+ 1m';
@@ -26,11 +26,12 @@
   .p-table--left {
     display: flex;
     flex-direction: column;
+    width: 30%;
     li {
-      width: 30%;
       height: 77px;
+      width: 100%;
       display: flex;
-      justify-content: center;
+      padding-left: 20%;
       align-items: center;
       font-size: 16px;
       font-family: 'M+ 1m';
@@ -52,7 +53,7 @@
       width: 30%;
       height: 77px;
       display: flex;
-      justify-content: center;
+      padding-left: 20%;
       align-items: center;
       font-size: 16px;
       font-family: 'M+ 1m';

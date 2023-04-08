@@ -8,7 +8,7 @@
       width: 307px;
       height: 77px;
       display: flex;
-      justify-content: center;
+      padding-left: 20%;
       align-items: center;
       font-size: 16px;
       font-family: 'M+ 1m';
@@ -23,44 +23,50 @@
 }
 
 @include m.mq(tab) {
-  .p-table--left {
+  .p-table--right {
     display: flex;
     flex-direction: column;
+    width: 70%;
     li {
-      width: 70%;
+      width: 100%;
       height: 77px;
       display: flex;
-      justify-content: center;
+      padding-left: 10%;
       align-items: center;
       font-size: 16px;
       font-family: 'M+ 1m';
       color: #3C2A10;
       border: #707070 solid 1px;
       border-bottom: 0px;
+      border-left: 0px;
       &:nth-of-type(5) {
         border: #707070 solid 1px;
+        border-left: 0px;
       }
     }
   }
 }
 
 @include m.mq(pc) {
-  .p-table--left {
+  .p-table--right {
     display: flex;
     flex-direction: column;
+    width: 70%;
     li {
-      width: 70%;
+      width: 100%;
       height: 77px;
       display: flex;
-      justify-content: center;
+      padding-left: 20%;
       align-items: center;
       font-size: 16px;
       font-family: 'M+ 1m';
       color: #3C2A10;
       border: #707070 solid 1px;
       border-bottom: 0px;
+      border-left: 0px;
       &:nth-of-type(5) {
         border: #707070 solid 1px;
+        border-left: 0px;
       }
     }
   }
