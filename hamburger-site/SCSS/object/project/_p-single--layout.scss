@@ -10,8 +10,6 @@
     color: #3C2A10;
     p {
       font-size: 16px;
-      font-family: 'M+ 1m';
-      font-weight: normal;
       color: #3C2A10;
       margin-top: 30px;
     }
@@ -30,6 +28,10 @@
       padding: 20px;
       margin-top: 30px;
       font-size: 16px;
+      p {
+        display: flex;
+        margin-top: 10px;
+      }
     }
     li {
       font-size: 16px;
@@ -42,6 +44,110 @@
         margin-top: 50px;
       }
     }
-  
+    // 最後の文字（bold）を太くする
+    .bold {
+      font-weight: bold;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@include m.mq(tab) {
+
+  .p-single--layout {
+    padding: 20px 25px 20px 25px;
+    font-family: 'M+ 1m';
+    font-weight: normal;
+    color: #3C2A10;
+    p {
+      font-size: 16px;
+      color: #3C2A10;
+      margin-top: 30px;
+    }
+    h3 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    h4,h5,h6{
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    blockquote {
+      background-color:#F5F5F5 ;
+      padding: 20px;
+      margin-top: 30px;
+      font-size: 16px;
+      p {
+        display: flex;
+        margin-top: 10px;
+      }
+    }
+    li {
+      font-size: 16px;
+    }
+    ul {
+      list-style-type: none;
+      margin-left: 0px;
+      margin-top: 20px;
+      &:nth-of-type(4) {
+        margin-top: 50px;
+      }
+    }
+    // 最後の文字（bold）を太くする
+    .bold {
+      font-weight: bold;
+    }
+  }
+}
+
+@include m.mq(pc) {
+
+  .p-single--layout {
+    padding: 20px 25px 20px 25px;
+    font-family: 'M+ 1m';
+    font-weight: normal;
+    color: #3C2A10;
+    p {
+      font-size: 16px;
+      color: #3C2A10;
+      margin-top: 30px;
+    }
+    h3 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    h4,h5,h6{
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+    blockquote {
+      background-color:#F5F5F5 ;
+      padding: 20px;
+      margin-top: 30px;
+      font-size: 16px;
+      p {
+        display: flex;
+        margin-top: 10px;
+      }
+    }
+    li {
+      font-size: 16px;
+    }
+    ul {
+      list-style-type: none;
+      margin-left: 0px;
+      margin-top: 20px;
+      &:nth-of-type(4) {
+        margin-top: 50px;
+      }
+    }
+    // 最後の文字（bold）を太くする
+    .bold {
+      font-weight: bold;
+    }
   }
 }

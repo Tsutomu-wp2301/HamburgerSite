@@ -1,0 +1,19 @@
+@use '../../foundation/breakpoint' as m;
+
+@include m.mq(sp) {
+  .bold {
+    font-weight: bold;
+  }
+}
+
+@include m.mq(tab) {
+  .bold {
+    font-weight: bold;
+  }
+}
+
+@include m.mq(tab) {
+  .bold {
+    font-weight: bold;
+  }
+}
